@@ -1,0 +1,35 @@
+.sidebar{
+
+  background-color: white;
+  position:fixed;
+  top:57px;
+  left:0px;
+  width:72px;
+  bottom:0px;
+  z-index:200;
+  padding-top: 5px;;
+}
+.sidebar-link{
+  height:74px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  cursor: pointer;
+}
+.sidebar-link:hover{
+  background-color: rgb(235, 235, 235);
+}
+
+/* :target all images present in with side-bar-link class (Advanced CSS Selectors)  */
+.sidebar-link img{
+  height:24px;
+  width:24px;
+  margin-bottom:4px;
+}
+
+.sidebar-link div{
+  font-size:10px;
+  color:black;
+  
+}

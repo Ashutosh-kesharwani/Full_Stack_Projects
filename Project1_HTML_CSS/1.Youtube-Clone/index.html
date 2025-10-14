@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>youtubeClone.com</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+
+<body>
+   <header class="header">
+    
+     <!-- Creating a header section with 3 sections left, middle and right -->
+     <!-- Left section contains logo and hamburger menu -->
+    <!-- Creating a header section with 3 sections left, middle and right -->
+     <!-- Left section contains logo and hamburger menu -->
+    <div class="left-section">
+       <img src="images/header-icons/hamburger-menu.svg" alt="Hamburger-menu" class="hamburger-menu">
+      <img src="images/header-icons/youtube-logo.svg" alt="Youtube Logo" class="youtube-logo">
+    </div>
+    <!-- Middle section contains search bar and mic button -->
+    <div class="middle-section"> 
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button"> 
+        <img src="images/header-icons/search.svg" alt="Search Icon" class="search-icon">
+        <div class="tooltip">Search</div>
+      </button>
+
+      <button class="voice-search-button">
+        <img src="images/header-icons/voice-search-icon.svg" alt="Mic Icon" class="mic-icon">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <!-- Right section contains icons for notifications, apps and profile -->
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img src="images/header-icons/upload.svg" alt="Upload Icon" class="upload-icon">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="youtube-apps-icon-container">
+         <img src="images/header-icons/youtube-apps.svg" alt="Youtube Apps Icon" class="youtube-apps-icon">
+        <div class="tooltip">Youtube Apps</div>
+      </div>
+
+      <div class="notification-icon-container">
+        <img src="images/header-icons/notifications.svg" alt="Notification Icon" class="notification-icon">
+      <div><button class="notification-count">3</button> </div>
+      <div class="tooltip">Notifications</div>
+      </div>
+      <img src="images/channel-profile/my-channel.png" alt="My Channel Icon" class="current-user-icon">
+    </div>
+  </header>
+
+  <!-- /* The sidebar is a vertical navigation menu that contains links to different sections of the website. 
+  Each link has an icon and text label. The sidebar is styled to be fixed on the left side of the page, with a background color and padding for spacing.
+  The icons are displayed in a grid layout, with hover effects to change the background color and text color when the user hovers over them. */ -->
+  <nav class="sidebar">
+
+    <div class="sidebar-link">
+      <a href="https://www.youtube.com/"class="video-link">
+         <img src="images/sidebar-icons/home.svg" alt="Home" class="Home-tab">
+      </a>
+      <a href="https://www.youtube.com/"class="video-link">
+       <div>Home</div>
+      </a>
+      
+    </div>
+
+    <div class="sidebar-link"><img src="images/sidebar-icons/explore.svg" alt="Home" class="explore-tab">
+    <div>Explore</div>
+  </div>
+    
+    <div class="sidebar-link">
+      <a href="https://www.youtube.com/feed/subscriptions"class="video-link">
+        <img src="images/sidebar-icons/subscriptions.svg" alt="Home" class="subscriptions-tab">
+      </a>
+      <a href="https://www.youtube.com/"class="video-link">
+        <div>Subscriptions</div>
+      </a>
+    </div>
+
+    <div class="sidebar-link"><img src="images/sidebar-icons/originals.svg" alt="Home" class="originals-tab">
+    <div>Orginals</div>
+    </div>
+
+    <div class="sidebar-link"><img src="images/sidebar-icons/youtube-music.svg" alt="Home" class="youtube-music-tab">
+    <div>Youtube Music</div>
+    </div>
+
+    <div class="sidebar-link"><img src="images/sidebar-icons/library.svg" alt="Home" class="library-tab">
+    <div>Library</div>
+    </div>   
+  </nav>
+</body>
+</html>
