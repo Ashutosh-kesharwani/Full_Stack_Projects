@@ -99,5 +99,50 @@
     <div>Library</div>
     </div>   
   </nav>
+
+   <!--  The main content area of the page, where the video previews are displayed. -->
+ <main>
+    <!-- Creating a grid layout with gap b/w columns and rows  for that we have to kept all 
+     video-previews in same div and apply techniques on that container -->
+    <!-- Video grid is Section of our main content -->
+    <!-- The video-grid class is used to create a grid layout for the video previews.
+   The video-preview class is used to style each individual video preview. -->
+    <section class="video-grid">
+
+    <!-- Forming  video preview section 1 -->
+  <div class="video-preview">
+    <div class="thumbnail-row">
+      <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" class="video-link">
+      <img class="thumbnail" src="images/thumbnails/thumbnail-1.webp" alt="Thumbnail 1">
+      </a>
+      <div class="video-time">14:20</div>
+    </div>
+
+    <div class="video-info-grid">
+      <div class="channel-profile">
+         <a class="video-link" href="https://www.youtube.com/c/mkbhd" >
+          <img class=profile-picture src="images/channel-profile/channel-1.jpeg" alt="Channel Profile 1">
+        </a>
+      </div>
+
+      <div class="video-info">
+        <a class="video-link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+          <p class="video-title">
+          Talking Tech and AI with Google CEO Sundar Pichai!
+        </p>
+        </a>
+        <a class="video-link" href="https://www.youtube.com/c/mkbhd" >
+           <p class="video-creator">
+          Marques Brownlee
+        </p>
+        </a>
+        
+        <p class="video-stats">
+          3.4M views · 6 months ago
+        </p>
+      </div>
+    </div>
+  </div>
+  </main>
 </body>
 </html>
