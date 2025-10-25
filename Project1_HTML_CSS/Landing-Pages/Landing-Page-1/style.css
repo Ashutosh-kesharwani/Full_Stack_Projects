@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+#left{
+    height: 100%;
+    width: 35%;
+    background-color: rgb(101, 246, 224);
+    position: relative;
+}
+#left-nav{
+ height:15%;
+ width: 100%;
+ /* background-color: white; */
+ display: flex;
+ padding: 20px 30px;
+}
+#lnavl{ 
+       height: 100%;
+       width: 20%;
+       /* background-color: red; */
+       display: flex;
+       align-items: center;
+}
+.back-arrow{
+    color:rgb(0, 66, 246);
+    font-size: 30px;
+}
+#lnavr{  
+
+       height: 100%;
+       width: 80%;
+       /* background-color: beige; */
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+}
+#lnavr a{
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+    font-size: 20px;
+    border-bottom: 3px solid rgb(32, 11, 226);
+    padding: 10px 0px;
+}
+.twitter-logo{
+    color: rgb(0, 61, 244);
+    font-size: 25px;
+}
+#left-main{
+
+ /* background-color: rgb(19, 13, 196); */
+
+ /*Code for doing anything center*/
+ position: absolute;
+ top:50%;
+ left:50%;
+ transform: translate(-50%,-50%);
+}
+#left-main>h1{
+ font-size:90px ;
+ font-weight: 900;
+ 
+}
+#left-main p{
+ font-size:17px ;
+ opacity: .6;
+ line-height: 20px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ 
+}
+#left-main a{
+ font-size:20px ;
+ text-decoration: none;
+ color: black;
+  border-bottom: 3px solid rgb(32, 11, 226);
+ padding-bottom: 5px;
+}
+#right{
+    height: 100%;
+    width: 65%;
+    /* background-color: rgb(205, 205, 50); */
+}
+#right-top{
+    height: 50%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+#right-top-left{
+    height: 100%;
+    width: 50%;
+    background-image: url('images/Luffy.avif');
+    background-position: center;
+    background-size: cover;
+  
+}
+#right-top-right{
+    height: 100%;
+    width: 50%;
+    background-image: url('images/Zoro.jpeg');
+    background-position: left;
+    background-size: cover;
+}
+#right-bottom{
+    height: 50%;
+    width: 100%;
+    background-image: url('images/Op-bg.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* for making it responsive as we know that ki in mobilephones website was 
+horizontally scrollable so for that  */
+
+/* ===============================
+   📱 Responsive Design for Mobile
+   Applied when screen width ≤ 500px
+================================= */
+@media screen and (max-width: 500px) {
+
+  /* The main container layout */
+  #main {
+    /* Change layout direction from horizontal (row) to vertical (column)
+       So the #left and #right sections stack on top of each other
+       instead of being side by side. */
+    flex-direction: column; /* mobile phones me vertically scrollable */
+  }
+
+  /* The left section (previously 35% wide) */
+  #main #left {
+    /* Make it full width so it fits nicely on small screens */
+    width: 100%;
+  }
+
+  /* The right section (previously 65% wide) */
+  #main #right {
+    /* Also make it full width, stacked below the left section */
+    width: 100%;
+  }
+}
