@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy',sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;   
+}
+#main{
+    height: 120vh;
+    width: 100%;
+    background-color: #AB8F97;
+    position: relative;
+}
+#parts-container{
+    height: 90%;
+    width: 85%;
+    background-color: #350d2f95;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.3);;
+}
+#part-1{
+    height: 100%;
+    width: 25%;
+    /* background-color: aqua; */
+}
+#part-2{
+    height: 100%;
+    width: 64%;
+    /* background-color: rgb(91, 219, 32); */
+    background-image: url('images/background-img.jpg');
+    background-position: center;
+    background-size: cover;
+}
+/* Adding covering or overlay on anything you want */
+.overlay{
+    height: 100%;
+    width: 100%;
+    /* when want to add blackflim type cover */
+    /* background-color: rgba(0, 0, 0, 0.227); */
+
+    background-color: #cc68cc3f;
+}
+#part-3{
+    height: 100%;
+    width: 11%;
+    /* background-color: rgb(200, 112, 24); */
+}
+
+/* Note when we add text create a separate div */
+#text-div{
+  /* background-color: red; */
+  width: 445px;
+  /* height: 300px; */
+  position: absolute;
+  top:50%;
+  left:8%;
+  transform: translate(0,-50%);
+}
+#text-div h1{
+  color: white;
+  font-size:80px ;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 75px;
+  letter-spacing: 10px;
+}
+#small-img-div{
+    height:45%;
+    width: 25%;
+    /* background-color: aqua; */
+    position: absolute;
+    right: 2%;
+    top:39%;
+    background-image: url('images/model-img-2.avif');
+    background-position: center;
+    background-size: cover;
+}
+#heading{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    text-wrap: nowrap;
+    position: absolute;
+    left:18%;
+    top:16%
+}
+#vertical-text{
+    /* background-color: red; */
+    position: absolute;
+    transform: rotate(90deg);
+    right: -73%;
+    top:-6%;
+    /*Iss transform ka origin kya rahega yha 0 0 means top-left corner*/
+    transform-origin:0% 0% ;
+}
+#vertical-text h1{
+     font-size: 70px;
+     text-transform: uppercase;
+     font-weight: 900;
+     -webkit-text-stroke-width: 3px;
+     -webkit-text-stroke-color: white;
+     color: transparent;
+     letter-spacing: 10px;
+}
