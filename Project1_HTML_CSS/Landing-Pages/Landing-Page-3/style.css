@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Monument Extended', sans-serif;
+}
+html,body{
+   height: 100%;
+    width: 100%; 
+    overflow-y: hidden;
+}
+main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: beige;
+    
+}
+#frame-container{
+    height: 94%;
+    width: 90%;
+    /* background-color: teal; */
+    position: relative;
+    overflow-x: hidden;
+    background-color: rgba(197, 197, 176, 0.644);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+nav{
+    height: 7%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+nav div{
+     text-transform: uppercase;
+     letter-spacing: 5px;
+}
+#collaborations{
+    color:rgb(138, 138, 138);
+}
+#content{
+    color:orange;
+    font-weight:700;
+    /* background-color: yellow; */
+    margin-right: 140px;
+}
+#image-container{
+    height: 85%;
+    width: 30%;
+    background-image: url('Images/yoga-pose.avif');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top:53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index:99
+}
+#desc{
+    position: absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%,-20%);
+    font-size: 20px;
+    font-weight: 700;
+    z-index: 100;
+}
+#scroller-div-1{
+    /* background-color: red; */
+    position: absolute;
+    top:25%;
+    left:50%;
+    transform: translate(-50%,35%);
+    white-space: nowrap;
+    overflow: hidden; /* hides extra text*/
+
+    
+}
+#scroll-track-1{
+    display: inline-block;
+    animation: scroll 9s linear infinite  ;
+    white-space: nowrap;
+}
+#scroller-div-1 h1{
+   display: inline-block;
+   font-size: 99px;
+   text-transform: uppercase;
+   margin-right: 30px;
+   letter-spacing: 3px;
+   
+}
+#scroller-div-2{
+    /* background-color: red; */
+    position: absolute;
+    top:45%;
+    left:50%;
+    transform: translate(-50%,35%);
+    white-space: nowrap;
+    overflow: hidden; /* hides extra text*/
+
+    z-index: 100;
+}
+#scroll-track-2{
+    display: inline-block;
+    animation: scroll 9s linear infinite reverse  ;
+}
+#scroller-div-2 h1{
+   display: inline-block;
+   font-size: 99px;
+   text-transform: uppercase;
+   margin-right: 30px;
+   letter-spacing: 3px;
+   -webkit-text-stroke-width:2px ;
+   -webkit-text-stroke-color:rgb(154, 152, 152) ;
+   color: transparent;
+   
+}
+#scroller-div-3{
+    /* background-color: red; */
+    position: absolute;
+    top:65%;
+    left:50%;
+    transform: translate(-50%,35%);
+    white-space: nowrap;
+    overflow: hidden; /* hides extra text*/
+
+    
+}
+#scroll-track-3{
+    display: inline-block;
+    animation: scroll 9s linear infinite  ;
+}
+#scroller-div-3 h1{
+   display: inline-block;
+   font-size: 99px;
+   text-transform: uppercase;
+   margin-right: 30px;
+   letter-spacing: 3px;
+   
+}
+
+@keyframes scroll{
+    0%{
+      transform: translateX(calc(0% ));
+    }
+    100%{
+        
+        transform: translateX(50%);
+    }
+}
