@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Monument Extended', sans-serif;
+
+}
+/*Note : if we give height in vh than 100% unit will not going to get work*/
+main{
+    min-height: 100vh; /*For responsive*/
+    width: 100%;
+    /* background-color: teal; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+/* #frame-container{
+    height:90%;
+    width: 85%;
+    background-color: antiquewhite;
+} */
+#top{
+    min-height: 60vh;
+    width: 100%;
+    background-image: url('images/landscape.jpg');
+    background-position: 70% 70%;
+    background-size: cover;
+}
+#overlay{
+    min-height: inherit; /*Inherit - Means jitne parent ki min height hogi utni overlay ki bhi*/
+    width: 100%;
+    background-color: rgba(64, 66, 66, 0.162);
+    position: relative;
+}
+#text-container{
+    width: 100%;
+    /* height: 20%; */
+    /* background-color: red; */
+    position: absolute;
+    top:60%;
+    padding: 0 7vw;
+    display: flex;
+    justify-content: space-between;
+}
+#text-left{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+}
+#text-left h1{
+    font-size: 55px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: gray;
+}
+#text-right{
+    display: flex;
+}
+#para{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: rgb(36, 174, 128); */
+     gap:20px;
+     margin-right: 40px;
+    
+}
+.para-container{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: flex-end;
+    /* background-color: yellow; */
+   
+}
+.para-container h2{
+   font-size: 23px;
+   color: rgb(222, 216, 216);
+   text-transform: uppercase;
+}
+.para-container p{
+   font-size: 9px;
+   color: rgb(0, 0, 0);
+}
+#icon{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:10px
+}
+#icon i{
+   font-size: 25px;
+   color: white;
+}
+#bottom{
+    min-height: 40vh;
+    width: 100%;
+    /* background-color: rgb(18, 139, 103); */
+    display: flex;
+}
+#bottom-part-1{
+    min-height: inherit;
+    width: 20%;
+    background-color: rgb(227, 222, 222);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    /* padding-top:10px */
+    color: rgb(42, 42, 42);
+}
+#bottom-part-1 h1{
+    font-size: 25px;
+}
+#bottom-part-1 p{
+    font-size: 10px;
+}
+#bottom-part-2{
+    min-height: inherit;
+    width: 30%;
+    background-image: url('images/tree.avif');
+    background-position: 10% 90% ;
+    background-size: cover;
+}
+#bottom-part-3{
+   min-height: inherit;
+    width: 25%;
+    /* background-color: rgb(228, 188, 24); */
+}
+#bp3top{
+    height: 30%;
+    width: 100%;
+    background-color: rgb(30, 32, 39);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    color:rgb(187, 185, 185);
+}
+#bp3top h3{
+    
+    font-size: 20px;
+    font-weight: 300;
+}
+#bp3top p{
+    font-size: 10px;
+}
+#bp3bottom{
+    width: 100%;
+    height: 70%;
+    /* background-color: yellow; */
+    background-image: url('images/Earth.avif');
+    background-size: cover;
+    background-position: center;
+}
+#bottom-part-4{
+  min-height: inherit;
+    width: 25%;
+    /* background-color: rgb(228, 188, 24); */
+}
+#bp4top{
+    
+    width: 100%;
+    height: 70%;
+    /* background-color: yellow; */
+    background-image: url('images/Sun.avif');
+    background-size: cover;
+    background-position: center;
+}
+#bp4bottom{
+    height: 30%;
+    width: 100%;
+    background-color: rgb(52, 45, 24);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    color:rgb(187, 185, 185);
+}
+
+#bp4bottom h3{
+    
+    font-size: 20px;
+    font-weight: 300;
+}
+#bp4bottom p{
+    font-size: 10px;
+    text-align: center;
+
+}
+
+/* @media screen and (max-width: 500px){
+    #top{
+        width: 100%;
+    }
+    #overlay #text-container{
+        flex-direction: column;
+    }
+    #overlay #text-container{
+        flex-direction: column;
+    }
+    #overlay #text-container #text-left{
+        flex-direction: column;
+    }
+    #overlay #text-container #text-right{
+        flex-direction: column;
+    }
+    
+} */
