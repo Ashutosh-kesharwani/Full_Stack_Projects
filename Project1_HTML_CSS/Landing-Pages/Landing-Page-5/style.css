@@ -1,0 +1,226 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+   font-family: 'Gilroy', sans-serif;
+    overflow-x: hidden;
+
+}
+main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    /* width: 100%; */
+    background-color:white;
+    padding: 0.5% 2.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0%;
+    left: 0%;
+    right: 0%;
+    z-index:99;
+}
+#nav-left h1{
+    font-size: 37px;
+    font-weight: 500;
+}
+#nav-left h1 span{
+    color:rgb(20, 213, 20);
+}
+#nav-right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%; /*jab tak isse fix width nhi f=doge ye not work because nav ko display flex diya and spaceb/w so vo right wale ko ek dam right me push kar diya*/
+  /* background-color: green; */
+  padding: 20px 0px;
+
+}
+#nav-right a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-weight: 500;
+}
+#nav-right a:nth-last-child(1){
+    padding: 12px 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 1px solid gray;
+    position: relative;
+    overflow: hidden;
+    
+}
+#nav-right a:nth-last-child(1) i{
+    font-size: 25px;
+}
+#nav-right a:nth-last-child(1) #green{
+    background-color: springgreen;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0%;
+    left:-100%; /*jisse wo green div gayab ho jaye abhi ke liye*/
+    transition: left 0.4s ease;   
+}
+#nav-right a:nth-last-child(1) h5{
+     position: relative;
+     z-index: 100;
+     font-weight: 300;
+     font-size: 22px;
+     
+}
+#nav-right a:nth-last-child(1):hover #green{
+    left:0% 
+}
+
+main>h1{
+    font-size: 4.5vw;
+    font-weight: 100;
+    text-transform: capitalize;
+    width: 60%;
+    text-align: center;
+    position: relative;
+    /* background-color: red; */
+    z-index: 99;
+}
+main>h1::after{
+    content: "";
+    position: absolute;
+    width: 38%;
+    height: 16px;
+    /* background-color: red; */
+    bottom: 0;
+    left:50%;
+    transform: translate(-40%,0);
+    background-image: url('https://thisisdigital.co.uk/dist/images/underline-green.svg');
+    background-size: cover;
+
+}
+main img{
+    transition: margin-top 0.4s ease;
+}
+main img:hover{
+    margin-top: -30px;
+}
+#img1{
+    height: 70%;
+    width: 23%;
+    position: absolute;
+    left: 9%;
+    top:20%;
+    object-fit: cover;
+    object-position: center;
+
+}
+#img2{
+    height: 30%;
+    width: 19%;
+    position: absolute;
+    right: 19%;
+    top:20%;
+    object-fit: cover;
+    object-position: center;
+}
+#img3{
+    height: 35%;
+    width: 19%;
+    position: absolute;
+    right: 9%;
+    bottom:10%;
+    object-fit: cover;
+    object-position: center;
+}
+main h3{
+    position: absolute;
+    bottom: 30%;
+    left: 45%;
+    font-size: 25px;
+    font-weight: 300;
+}
+main h3 i{
+     padding: 6px 18px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 1px solid gray;
+    position: relative;
+    overflow: hidden;
+}
+#page-2{
+    height: 70%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+     color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 40px;
+}
+#page-2 h5{
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+}
+#page-2 h5::before{
+    content: "";
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background-color: #00EB8F;
+    position: absolute;
+    left:-6%
+}
+#page-2 h1{
+   text-align: center;
+   width:60%;
+   font-size: 43px;
+   font-weight: 300;
+}
+#page-2 h1 strong::after{
+   content: "";
+   position: absolute;
+   top:60%;
+   left:24%;
+   height:46%;
+   width: 21%;
+   /* background-color: red; */
+   background-image: url(images/different-circle.svg);
+   background-size: cover;
+
+
+}
+#page-2 a{
+   text-align: center;
+   width:60%;
+   font-size: 24px;
+   font-weight: 300;
+   text-decoration: none;
+   color: white;
+}
+#page-2 a i{
+   padding: 6px 18px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 1px solid gray;
+    position: relative;
+    overflow: hidden;
+}
+#page-3{
+    height: 100%;
+    width: 100%;
+}
