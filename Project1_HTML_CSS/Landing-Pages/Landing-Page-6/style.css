@@ -1,0 +1,158 @@
+/* New Machina font style */ 
+ @font-face {
+  font-family: "Neue Machina";
+  src: url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.woff2") format("woff2"),
+       url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.woff") format("woff"),
+       url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family:  'Neue Machina',sans-serif;
+    overflow-x: hidden;
+
+}
+main{
+    height:100%;
+    width: 100%;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#center{
+    height:90%;
+    width: 80%;
+    background-color: #ffffffca;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2.5%;
+    position: relative;
+    
+}
+#overlay{
+    background-color: #21212122;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 11;
+}
+#side-bar{
+    /* background-color: yellow; */
+    height: 90%;
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu{
+ /* background-color: red; */
+ font-size: 30px;
+ color:rgb(1, 1, 99);
+  
+}
+#media-icons{
+    height: 35%;
+   /* background-color: blue; */
+   display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color:rgb(8, 77, 1);
+}
+#media-icons i{
+   font-size: 25px;
+}
+#card-container{
+    height:90%;
+    width: 85%;
+    /* background-color: rgb(50, 169, 205); */
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ffffffca;
+}
+.image-container{
+   height: 100%;
+   width: 0%;
+   /* background-color: red; */
+   position: absolute;
+   overflow: hidden;
+   z-index: 9;
+   left: 15%;
+   
+}
+.image-container img{
+   height: 100%;
+}
+#last{
+    background-color: #212121;
+}
+.header-container{
+    /* background-color: red; */
+    position: absolute;
+    top:40%;
+    left:8%;
+    z-index: 10;
+    height:100px;
+    width:450px;
+    overflow: hidden;
+    /* background-color: red; */
+}
+.header-container h1{
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: absolute;
+    top:100px;/*Isko gyab karne ke liye jtna uska div ka height hai utna isko top se dedo ye gyab ho jayga*/ 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(238, 160, 5);
+    color:transparent
+
+}
+.para-container{
+    position: absolute;
+    top:60%;
+    left:8%;
+    z-index: 10;
+    height:100px;
+    width:400px;
+    overflow: hidden;
+    /* background-color: red; */
+    line-height: 1vw;
+}
+.para-container p{
+    font-size: 1vw;
+    font-weight: 700;
+    line-height: 1.3vw;
+    position: absolute;
+    top:100px;/*Isko gyab karne ke liye jtna uska div ka height hai utna isko top se dedo ye gyab ho jayga*/ 
+    color:rgb(0, 0, 0);
+   
+}
+
+#more{
+    position: absolute;
+    left:8%;
+    bottom:15%;
+    /* background-color: red; */
+    text-decoration: none;
+    color:rgb(19, 136, 8);
+    font-size: 1.7vw;
+    font-weight: 700;
+    z-index: 10;
+}
+#more i{
+ font-size: 1.9vw;
+ color:white;
+}
