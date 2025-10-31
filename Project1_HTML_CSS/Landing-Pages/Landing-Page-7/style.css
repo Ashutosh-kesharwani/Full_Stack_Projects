@@ -1,0 +1,188 @@
+/* New Machina font style */ 
+ @font-face {
+  font-family: "Neue Machina";
+  src: url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.woff2") format("woff2"),
+       url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.woff") format("woff"),
+       url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gilroy', sans-serif;
+    overflow-x: hidden;
+
+}
+main{
+    height:100% ;
+    width: 100%;
+    background-color:#D0D4D5 ;
+}
+nav{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    height: 10%;
+
+}
+#nav-left{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+}
+#nav-left img{
+   width: 45%; 
+}
+#nav-center{
+    height: 100%;
+    width: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-center a{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 6px 3px;
+}
+#nav-center a:hover{
+    border-bottom:3px solid black ;
+    
+}
+#nav-right{
+    height: 100%;
+    width: 15%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-right i{
+   font-size: 20px;
+
+}
+#center{
+    height: 90%;
+    /* height:calc(100%-110px);Yha iss trah height dene ka reason as nav ko hamne 110px diya hai and jo bchi height hai vo center lele so uske liye iss trah do | fayda jitni height bachegi usme se 110ps ghta ke hamara center le lega */
+    width: 100%;
+    /* background-color: rgba(255, 0, 0, 0.129); */
+    display: flex;
+    position: relative;
+}
+#center-left{
+    height: 80%;
+    width: 35%;
+    /* background-color: rgb(57, 12, 240); */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:10%;
+    left:7%;
+}
+#center-left h5{
+    font-size: 18px;
+    font-weight: 400;
+    color:gray;
+    margin-bottom: 5%;
+}
+#center-left h1{
+    text-transform: uppercase;
+   font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10%
+}
+#center-left p{
+   width: 70%;
+   font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10%;
+    line-height: 23px;
+   
+}
+#center-left button{
+   width: 25%;
+   font-size: 13px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border:none;
+    /* border-radius: 0px 25px 25px 32px ;  iss trah bhi ham uss wala button bna sakte hai */
+    /* or one way  */
+    border-radius: 50px; /*sbko phle same dedo  */
+    border-top-left-radius: 0px; /*Fir top left radius ko 0px kardo wapis se */
+   
+}
+#center-right{
+    height: 100%;
+    width: 65%;
+    /* background-color: rgba(255, 0, 0, 0.129); */
+    position: absolute;
+    right: 0;
+    gap:2%;
+    overflow: hidden;
+    padding: 100px;
+    white-space: nowrap; /*Use ki har ek card ek line me aa jaye*/
+   /* As ham cahate hai ki sirf right wale part me vo scroll kare puri website me uske liye use this property to ye hamara x-axis pe scrollable hoga  */
+    overflow-x: auto;
+}
+
+/*Abb ham cahate hai ki hamare right div jo scroll ho rha hai uska scrollbar hat jaye*/
+#center-right::-webkit-scrollbar{
+    display: none;
+}
+/* Yha display flex parent center-right me isliye use nhi kiye kyuki hame scrolling animation lagana hai ek line me lane ke liye hamne .card ko display:inline-block de diya */
+.card{
+    height:400px;
+    width: 300px;
+    background-color: red;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    /* box-shadow: x-axis y-axis blur color; hota hai */
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+    display: inline-block; /*Ek line me saare card ko lane ke liye*/
+    margin-right: 20px;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card h4{
+    position: absolute;
+    bottom: 12.5%;
+    background-color: black;
+    color: white;
+    padding: 13px 20px;
+    border-radius: 5px;
+    right: 0;
+}
+.card h3{
+    position: absolute;
+    bottom: 0%;
+    background-color: rgb(101, 99, 99);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    right: 0;
+    font-size: 17px;
+    font-weight: 300;
+}
