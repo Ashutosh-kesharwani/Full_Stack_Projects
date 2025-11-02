@@ -1,0 +1,193 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gilroy', sans-serif;
+    overflow-x: hidden;
+
+}
+main{
+    height:100% ;
+    width: 100%;
+    background-color:#000000 ;
+}
+nav{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    height: 110px;
+    color: white;
+    overflow: hidden;
+}
+
+#nav-left{
+    height: 100%;
+    width: 10%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+}
+#nav-center{
+    height: 100%;
+    width: 70%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+#nav-center a{
+    text-decoration: none;
+    color: white;
+    /* text-transform: uppercase; */
+    font-weight: 500;
+    padding: 6px 3px;
+     position: relative;
+}
+#nav-center a:hover{
+    border-bottom:3px solid rgb(255, 0, 0) ; 
+}
+.line{
+    height: 3px;
+    width: 90px;
+    background-color: red;
+    border-radius: 2px;
+}
+
+#nav-right{
+   height: 100%;
+    width: 10%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+#center{
+    height: calc(100% - 140px); /*total height me se main ke nav ki height hta ke 140 jo bache vo center ko dedo Note [calc(- ke aage peeche space dena imp otherwise work nhi karega)]*/
+    width: 100%;
+    /* background-color: rgb(21, 207, 45); */
+    display: flex;
+   justify-content: space-between;
+   position: relative;
+}
+#center>img{
+    height: 100%;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,0);
+}
+#center-left{
+    height: 100%;
+    width: 36%;
+    /* background-color: rgb(111, 0, 255); */
+    color: white;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+
+}
+#center-left h1{
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 49px;
+}
+#center-left span{
+    color: red;
+}
+#center-left p{
+    line-height: 22px;
+   
+}
+#button-container{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    width: 60%;
+    /* background-color: yellow; */
+}
+#button-container button{
+    width:80%;
+    padding: 15px 30px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+#button-container .heart{
+   
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    color: red;
+}
+
+#center-center{
+    height: 100%;
+    width: 26%;
+    /* background-color: rgb(165, 13, 175); */
+    padding-top: 60px;
+}
+#center-bg{
+    height: 88%;
+    width: 100%;
+    /* background-color: yellow; */
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    background-image: url(images/coco-cola-bg.jpg);
+    background-size: 350%;
+    background-position: 30% 60%;
+    filter: blur(2px);
+
+}
+#center-right{
+    height: 100%;
+    width: 36%;
+    /* background-color: rgb(85, 89, 98); */
+    padding: 220px 120px;
+}
+
+#details{
+    /* background-color: red; */
+    width: 280px;
+    color: rgb(208, 202, 202);
+}
+.details-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    /* background-color: blue; */
+    border-bottom: 1px solid #fff;
+}
+
+.details-1 h1{
+  font-size: 24px;
+  font-weight: 600;
+}
+.details-1 p{
+  font-size: 24px;
+  font-weight: 600;
+}
+.details-2 h1{
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom:15px ;
+  padding-top: 15px;
+}
+.details-2 p{
+  font-size: 13px;
+  width: 80%;
+  color: rgb(205, 199, 199);
+}
