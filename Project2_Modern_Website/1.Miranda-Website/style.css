@@ -1,0 +1,525 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Editorial New';
+  src: url('assets/fonts/Editorial-New-Light-font.ttf') ,
+       url('assets/fonts/Editorial-New-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Canopee;
+  src: url('assets/fonts/Canopee-regular-font.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+html,body{
+  width:100%;
+  height: 100%;
+  background-color:  #C5BDB3;
+  color:rgb(29, 29, 27);
+  /* font-family: "Editorial New", sans-serif; */
+  overflow-x: hidden;
+
+}
+body::selection {
+  color: #C3BBB2;              /* Text color when selected */
+  background-color: #1C1C1A; /* Background color of selection */
+}
+
+/* #animation-div{
+  background-color: #222;
+  overflow-x: hidden;
+ z-index: 100;
+} */
+#header{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  border-bottom: 1px solid #222;
+  position: fixed;
+  background-color: #C3BBB2; /* Background color for the header */
+  z-index: 100;
+  
+ 
+}
+/* Reason teeno ko equal width di jisse hmara title center me dhikhe*/
+#header-title{
+  height: 30px;
+  width: 30%;
+}
+#header h5{
+  width: 30%;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: 'Editorial New', sans-serif;
+}
+#menu-icon-container{
+  width: 30%;
+}
+#menu-icon{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  float: right;     /* Aligns the menu icon to the right  img ka posn chnage ke liye use hota hai*/
+}
+
+
+#page1{
+  background-color:#C3BBB2; ;
+  padding-top: 80px;
+  height: 150vh; /* Isse ye automatically apni height ko adjust kar lega responsive design me use hota hai*/
+  width: 100vw; /* vh = viewport height, vw = viewport width */
+  position: relative;
+  z-index: 10;
+  overflow-x: hidden;
+}
+#page1-elems{
+   width:100%;
+   height: 54vh;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr; /* 3 equal columns */;
+   padding: 40px 50px; 
+   
+}
+.page1-grid{
+  padding: 0 20px;
+}
+#img-div{
+  height: 50%;
+  width: 100%;
+  overflow: hidden;  /* Ensures that the image does not overflow its container */
+  margin-bottom: 10px;
+}
+.page1-grid img {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+  transition: all ease 0.6s;
+}
+#img-div:hover img{
+  scale:1.2;
+}
+#page1-grid-text{
+  display: flex;
+  align-items: center;
+  gap:15px;
+  margin-bottom: 10px;
+  font-family: 'Editorial New', sans-serif; 
+}
+.new{
+  font-family: Canopee, sans-serif;
+  background-color: rgb(180, 59, 18);
+  padding: 4px;
+  border-radius: 5px;
+  color:rgb(196, 188, 179);
+}
+.page1-grid p{
+font-family: "Editorial New", sans-serif; 
+color: rgb(29, 29, 27);
+font-size: 20.9324px;
+font-weight: 300;
+height :121.7px;
+width: 99%;
+}
+.page1-grid h1{
+  font-family: Canopee, sans-serif;
+  font-size: 44px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.page1-grid h2{
+  font-family: 'Editorial New', sans-serif; 
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 30px;
+  width: 80%;
+  text-align: center;
+}
+#elems-middle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid #A09A92;
+  border-left: 2px solid #A09A92;
+
+}
+#elems-middle h1{
+  font-size: 90px;
+}
+#elems-middle h2{
+  margin-top: -10px;
+  font-size: 30px;
+}
+
+#page1-title{
+
+  background-color: #1C1C1A;
+  font-size: 550px;
+  font-weight: 400;
+  letter-spacing: -20px;
+  color:#C3BBB2;
+  background-color: #1C1C1A;
+  font-family :Canopee, sans-serif;
+  text-align: center;
+}
+#page2{
+  color:rgb(29, 29, 27);
+  height:270vh;
+  width: 100vw;
+  position: relative;
+  font-family :Canopee, sans-serif;
+  margin-bottom:30px ;
+}
+#page2-content{
+  width: 100%;
+  height: 200vh;
+  display: flex;
+  flex-direction: row;
+  gap:20px
+}
+#left-part{
+   width: 38%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+#left-part h1{
+   text-align: center;
+   width:100%;
+   height: 30%;
+   font-weight: 400;
+   font-size :160px;
+}
+#interactive-part{
+
+font-size: 96px;
+}
+
+#left-part-img{
+   margin-top: 20px;
+   width:85%;
+   height: 60%;
+   background: url('assets/images/page2-img-1.jpeg');
+   background-position: center;
+   background-size: cover;
+
+}
+
+#left-part p{
+  padding: 20px 10px;
+  font-family :'Editorial New', sans-serif;
+  font-size :24.894px;
+  font-weight :300;
+   width:80%;
+   height: 20%;
+   line-height: 38px;
+    
+}
+#para-A{
+  font-family: 'Editorial New', sans-serif;
+  font-size: 60px;
+  color:rgb(196, 188, 179);
+  background-color: #222;
+  margin-right: 10px;
+}
+#right-part{
+   border-left: 1px solid #A09A92; 
+   flex:1;
+   height: 100%;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+#right-part-img{
+   
+    width: 90%;
+    height:90%;
+    background: url('assets/images/page2-img-2.jpeg');
+    background-position: center;
+    background-size: cover;
+
+}
+#right-part h1{
+ 
+  font-family :Canopee, sans-serif;
+font-size :94.044px;
+font-weight: 400;
+ width: 90%;
+  
+}
+#page2-title{
+  margin-top: 40px;
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+#page2-title h1{
+  padding: 0px 20px;
+  margin-right:20px ;
+  font-size: 400px;
+  font-weight: 400;
+  background-color: #1C1C1A;
+  color:#C4BDB3;
+}
+#page2-title img{
+  margin-left:65px ;
+  margin-right: 30px;
+  scale:1.2;
+  object-fit: cover;
+  object-position: center;
+}
+#page3{
+  width: 100vw;
+  height: 210vh;
+  position: relative;
+  /* background-color: red; */
+  font-family: Canopee, sans-serif;
+  color:rgb(29, 29, 27);
+}
+#page3-content{
+  width: 100%;
+  height: 180vh;
+  /* background-color: yellowgreen; */
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+
+}
+#page3-left-part{
+   flex:1;
+   /* background-color: blueviolet; */
+   height: 100%;
+   border-right: 1px solid #222; 
+  
+}
+#page3-left-part-content{
+  width: 100%;
+  height: 20%;
+  /* background-color: aqua; */
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+  justify-content: center;
+  align-items: center;
+}
+#left-div1{
+  border-right: 1px solid rgb(29, 29, 27);
+  text-align: left;
+  height: 100%;
+  padding-left:25px ;
+  padding-right:20px ;
+
+}
+
+#left-div1 h1{
+     padding-top: 18px;
+     font-size: 65px;
+     font-weight: 400;
+     
+}
+#left-div1 h2{
+  font-size: 36px;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#left-div1 h3{
+  font-size: 25px;
+  font-weight: 300;
+}
+#left-div2 {
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: start;
+  font-family: 'Editorial New', sans-serif;
+}
+#left-div2-img-container{
+   scale: 1;
+   overflow: hidden;
+   transition: scale 1s;
+}
+#left-div2-img-container:hover img{
+   scale: 1.1;
+}
+
+#left-div2 img{
+  
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+#left-div2 h2{
+  
+   font-size: 25px;
+   font-weight: 700;
+}
+#left-div2 h3{
+ 
+  font-size: 14px;
+   font-weight: 300;
+   margin-top: 12px;
+   line-height: 18px;
+   width: 310px;
+}
+#left-div3 {
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 90%;
+  height: 130vh; /* height in vh ensures proper visibility */
+  background-image: url('assets/images/page3-img-2.jpeg');
+  background-size: cover;
+  background-position: center center; /* ✅ show center */
+  background-repeat: no-repeat;
+}
+
+
+#page3-right-part{
+   width:40%;
+   height: 100%;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#page3-right-part h1{
+  font-size: 100px;
+  font-weight: 400;
+}
+
+#deliver{
+  font-size: 180px;
+  margin-top: -10px;
+}
+#page3-right-part P{
+  font-family: 'Editorial New', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;  
+}
+#desc{
+    margin-top: 30px;  
+    margin-bottom: 40px; 
+}
+#all-work-conatiner{
+  width: 400px;
+  height: 200px;
+  border-radius: 50%;
+  border:1px solid #A09A92;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 85px;
+}
+
+#scroller{
+  width: 100vw;
+  white-space: nowrap;
+  width: 100%;
+  height: 20vh;
+  border-top:1px solid rgb(29, 29, 27);
+  border-bottom:1px solid rgb(29, 29, 27);
+  overflow: hidden;
+
+}
+#scroller-in{
+   display: inline-block;
+   animation: scroll 10s linear infinite;   
+}
+
+#scroller-in h2{
+  display: inline-block;
+  font-family :'Editorial New', sans-serif;
+font-size : 60px;
+font-weight: 300;
+padding-top: 25px;
+display: inline-block;
+   white-space: nowrap;
+  
+}
+#scroller-in:hover{
+  animation-play-state: paused;
+}
+#scroller-in span{
+  background-color: #222;
+  color: #A09A92;
+  padding: 0px 10px;
+  margin: 0px 10px ;
+  text-transform:uppercase ;
+  font-weight: 500;
+}
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+#footer{
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family :Canopee, sans-serif;
+
+}
+#footer-left{
+  display: flex;
+  align-items: center;
+  gap:10px;
+  padding-left: 20px ;
+}
+#footer-left h2{
+  font-size :21px;
+font-weight :500;
+}
+#footer-left img{
+  width: 20px;
+}
+#footer-left h3{
+  font-size :16px;
+font-weight :300;
+}
+#footer-right h2{
+ font-size: 21px;
+font-weight: 400;
+margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
