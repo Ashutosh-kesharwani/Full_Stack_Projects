@@ -9,168 +9,140 @@
 
 <h2 align="center">🚀 Live Project Links</h2>
 
-<style>
-  .btn {
-    background: linear-gradient(90deg, #0078ff, #00c6ff);
-    color: white !important;
-    padding: 6px 14px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: 500;
-    transition: 0.3s ease-in-out;
-  }
-  .btn:hover {
-    background: linear-gradient(90deg, #005fd1, #009edb);
-    transform: scale(1.05);
-  }
-  table {
-    margin: auto;
-    border-collapse: collapse;
-  }
-  th, td {
-    padding: 10px 16px;
-    text-align: center;
-  }
-  th {
-    background-color: #f2f2f2;
-  }
-</style>
-
-<table align="center" border="1">
+<table align="center">
   <tr>
-    <th style="color:black">Landing Page</th>
-    <th style="color:black">Theme</th>
-    <th style="color:black">Live Demo</th>
+    <th>Landing Page</th>
+    <th>Theme</th>
+    <th>Live Demo</th>
   </tr>
 
   <tr>
     <td><b>1️⃣ Landing Page 1</b></td>
     <td>Anime-Inspired Visuals</td>
-    <td><a class="btn" href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-1/" target="_blank">🔗 View Live</a></td>
+    <td><a href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-1/" target="_blank">🔗 View Live</a></td>
   </tr>
 
   <tr>
     <td><b>2️⃣ Landing Page 2</b></td>
     <td>Suzanna Zampal Modern Design</td>
-    <td><a class="btn" href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-2/" target="_blank">🔗 View Live</a></td>
+    <td><a href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-2/" target="_blank">🔗 View Live</a></td>
   </tr>
 
   <tr>
     <td><b>3️⃣ Landing Page 3</b></td>
     <td>Brand Identity (CSS Only)</td>
-    <td><a class="btn" href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-3/" target="_blank">🔗 View Live</a></td>
+    <td><a href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-3/" target="_blank">🔗 View Live</a></td>
   </tr>
 
   <tr>
     <td><b>4️⃣ Landing Page 4</b></td>
     <td>Nature-Themed Design</td>
-    <td><a class="btn" href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-4/" target="_blank">🔗 View Live</a></td>
+    <td><a href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-4/" target="_blank">🔗 View Live</a></td>
   </tr>
 
   <tr>
     <td><b>5️⃣ Landing Page 5</b></td>
     <td>GSAP Scroll Animations</td>
-    <td><a class="btn" href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-5/" target="_blank">🔗 View Live</a></td>
+    <td><a href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-5/" target="_blank">🔗 View Live</a></td>
   </tr>
 
   <tr>
     <td><b>6️⃣ Landing Page 6</b></td>
     <td>GSAP Timeline Animation</td>
-    <td><a class="btn" href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-6/" target="_blank">🔗 View Live</a></td>
+    <td><a href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-6/" target="_blank">🔗 View Live</a></td>
   </tr>
 
   <tr>
     <td><b>7️⃣ Landing Page 7</b></td>
     <td>Nike-Inspired Brand Page</td>
-    <td><a class="btn" href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-7/" target="_blank">🔗 View Live</a></td>
+    <td><a href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-7/" target="_blank">🔗 View Live</a></td>
   </tr>
 
   <tr>
     <td><b>8️⃣ Landing Page 8</b></td>
     <td>Coca-Cola Brand Showcase</td>
-    <td><a class="btn" href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-8/" target="_blank">🔗 View Live</a></td>
+    <td><a href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-8/" target="_blank">🔗 View Live</a></td>
   </tr>
 </table>
 
 ---
 
-<h2>📁 Folder Structure</h2>
+### 📁 Folder Structure
 
-<pre>
+```
+
 Full_Stack_Projects/
 └── Project1_HTML_CSS/
-    └── Landing-Pages/
-        ├── Landing-Page-1/
-        ├── Landing-Page-2/
-        ├── Landing-Page-3/
-        ├── Landing-Page-4/
-        ├── Landing-Page-5/
-        ├── Landing-Page-6/
-        ├── Landing-Page-7/
-        └── Landing-Page-8/
-</pre>
+└── Landing-Pages/
+├── Landing-Page-1/
+├── Landing-Page-2/
+├── Landing-Page-3/
+├── Landing-Page-4/
+├── Landing-Page-5/
+├── Landing-Page-6/
+├── Landing-Page-7/
+└── Landing-Page-8/
+
+```
+
+
 
 ---
 
-<h2>✨ Project Highlights</h2>
+### ✨ Project Highlights
 
-<ul>
-  <li><b>🎨 Landing Page 1 — Anime-Inspired Visuals:</b> Layered backgrounds & cinematic layouts.</li>
-  <li><b>💡 Landing Page 2 — Suzanna Zampal Modern Design:</b> Minimal, typography-driven elegance.</li>
-  <li><b>🏷️ Landing Page 3 — Brand Identity Page:</b> Pure CSS animation-based storytelling.</li>
-  <li><b>🌿 Landing Page 4 — Nature Theme:</b> Calm gradients and eco visuals.</li>
-  <li><b>⚡ Landing Page 5 — GSAP Scroll Animations:</b> ScrollTrigger-based interactive flow.</li>
-  <li><b>🎬 Landing Page 6 — GSAP Timeline Animation:</b> Sequential motion storytelling.</li>
-  <li><b>👟 Landing Page 7 — Nike Brand Page:</b> Bold contrast, minimal layout, brand focus.</li>
-  <li><b>🥤 Landing Page 8 — Coca-Cola Showcase:</b> Nostalgic red-tone storytelling through design.</li>
-</ul>
+- 🎨 **Landing Page 1 — Anime-Inspired Visuals:** Layered backgrounds & cinematic layouts  
+- 💡 **Landing Page 2 — Suzanna Zampal Modern Design:** Minimal, typography-driven elegance  
+- 🏷️ **Landing Page 3 — Brand Identity Page:** Pure CSS animation-based storytelling  
+- 🌿 **Landing Page 4 — Nature Theme:** Calm gradients and eco visuals  
+- ⚡ **Landing Page 5 — GSAP Scroll Animations:** ScrollTrigger-based interactive flow  
+- 🎬 **Landing Page 6 — GSAP Timeline Animation:** Sequential motion storytelling  
+- 👟 **Landing Page 7 — Nike Brand Page:** Bold contrast, minimal layout, brand focus  
+- 🥤 **Landing Page 8 — Coca-Cola Showcase:** Nostalgic red-tone storytelling through design
 
 ---
 
-<h2>🧠 Concepts Explored</h2>
+### 🧠 Concepts Explored
 
-<ul>
-  <li>CSS Grid & Flexbox for layout precision</li>
-  <li>Fully responsive design for all screens</li>
-  <li>Typography hierarchy & visual rhythm</li>
-  <li>Scroll-based GSAP animations</li>
-  <li>Modern storytelling with motion design</li>
-</ul>
+- CSS Grid & Flexbox for layout precision  
+- Fully responsive design for all screens  
+- Typography hierarchy & visual rhythm  
+- Scroll-based GSAP animations  
+- Modern storytelling with motion design  
 
 ---
 
-<h2>🔧 Technologies Used</h2>
+### 🔧 Technologies Used
 
-<ul>
-  <li><b>HTML5</b> – Semantic and structured layouts</li>
-  <li><b>CSS3</b> – Advanced transitions & effects</li>
-  <li><b>GSAP</b> – Smooth animations & scroll magic</li>
-  <li><b>ScrollTrigger</b> – Scroll-based triggers</li>
-</ul>
+- **HTML5** – Semantic and structured layouts  
+- **CSS3** – Advanced transitions & effects  
+- **GSAP** – Smooth animations & scroll magic  
+- **ScrollTrigger** – Scroll-based triggers  
 
 ---
 
-<h2>📸 Project Previews</h2>
+### 📸 Project Previews
 
 <p align="center">
-  <img src="Landing-Page-2/Landing-Page-2.png"  width="320" alt="Landing Page 2 Preview" />
-  <img src="Landing-Page-8/Landing-Page-8.png"  width="320" alt="Landing Page 8 Preview" />
+  <img src="Landing-Page-2/Landing-Page-2.png" width="320" alt="Landing Page 2 Preview" />
+  <img src="Landing-Page-8/Landing-Page-8.png" width="320" alt="Landing Page 8 Preview" />
 </p>
 
 ---
 
-<h2>📢 LinkedIn Post</h2>
+### 📢 LinkedIn Post
 
-<blockquote>
-🚀 Just wrapped up my <b>Modern Landing Page Collection</b> — featuring 8 creative web experiences built from scratch with <b>HTML, CSS & GSAP</b>! <br><br>
-Each page explores unique animation styles, storytelling, and design aesthetics — from anime art to modern brand layouts. <br><br>
-🔗 Check it out on GitHub → <a href="https://github.com/Ashutosh-kesharwani/Full_Stack_Projects">Ashutosh Kesharwani | Full Stack Projects</a> <br><br>
-#WebDevelopment #FrontendDesign #GSAP #CSSAnimations #CreativeCoding #Portfolio
-</blockquote>
+> 🚀 Just wrapped up my <b>Modern Landing Page Collection</b> — featuring 8 creative web experiences built from scratch with <b>HTML, CSS & GSAP</b>!  
+>
+> Each page explores unique animation styles, storytelling, and design aesthetics — from anime art to modern brand layouts.  
+>
+> 🔗 Check it out on GitHub → [Ashutosh Kesharwani | Full Stack Projects](https://github.com/Ashutosh-kesharwani/Full_Stack_Projects)  
+>
+> #WebDevelopment #FrontendDesign #GSAP #CSSAnimations #CreativeCoding #Portfolio
 
 ---
 
-<h2>💬 Author</h2>
+### 💬 Author
 
 <p align="center">
 👤 <b>Ashutosh Kesharwani</b><br>
