@@ -9,51 +9,86 @@
 
 <h2 align="center">🚀 Live Project Links</h2>
 
-<table align="center">
+<style>
+  .btn {
+    background: linear-gradient(90deg, #0078ff, #00c6ff);
+    color: white !important;
+    padding: 6px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+  }
+  .btn:hover {
+    background: linear-gradient(90deg, #005fd1, #009edb);
+    transform: scale(1.05);
+  }
+  table {
+    margin: auto;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 10px 16px;
+    text-align: center;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+
+<table align="center" border="1">
   <tr>
-    <th>Landing Page</th>
-    <th>Theme</th>
-    <th>Live Demo</th>
+    <th style="color:black">Landing Page</th>
+    <th style="color:black">Theme</th>
+    <th style="color:black">Live Demo</th>
   </tr>
+
   <tr>
     <td><b>1️⃣ Landing Page 1</b></td>
     <td>Anime-Inspired Visuals</td>
-    <td><a href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-1/" target="_blank">🔗 View Live</a></td>
+    <td><a class="btn" href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-1/" target="_blank">🔗 View Live</a></td>
   </tr>
+
   <tr>
     <td><b>2️⃣ Landing Page 2</b></td>
     <td>Suzanna Zampal Modern Design</td>
-    <td><a href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-2/" target="_blank">🔗 View Live</a></td>
+    <td><a class="btn" href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-2/" target="_blank">🔗 View Live</a></td>
   </tr>
+
   <tr>
     <td><b>3️⃣ Landing Page 3</b></td>
     <td>Brand Identity (CSS Only)</td>
-    <td><a href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-3/" target="_blank">🔗 View Live</a></td>
+    <td><a class="btn" href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-3/" target="_blank">🔗 View Live</a></td>
   </tr>
+
   <tr>
     <td><b>4️⃣ Landing Page 4</b></td>
     <td>Nature-Themed Design</td>
-    <td><a href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-4/" target="_blank">🔗 View Live</a></td>
+    <td><a class="btn" href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-4/" target="_blank">🔗 View Live</a></td>
   </tr>
+
   <tr>
     <td><b>5️⃣ Landing Page 5</b></td>
     <td>GSAP Scroll Animations</td>
-    <td><a href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-5/" target="_blank">🔗 View Live</a></td>
+    <td><a class="btn" href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-5/" target="_blank">🔗 View Live</a></td>
   </tr>
+
   <tr>
     <td><b>6️⃣ Landing Page 6</b></td>
     <td>GSAP Timeline Animation</td>
-    <td><a href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-6/" target="_blank">🔗 View Live</a></td>
+    <td><a class="btn" href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-6/" target="_blank">🔗 View Live</a></td>
   </tr>
+
   <tr>
     <td><b>7️⃣ Landing Page 7</b></td>
     <td>Nike-Inspired Brand Page</td>
-    <td><a href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-7/" target="_blank">🔗 View Live</a></td>
+    <td><a class="btn" href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-7/" target="_blank">🔗 View Live</a></td>
   </tr>
+
   <tr>
     <td><b>8️⃣ Landing Page 8</b></td>
     <td>Coca-Cola Brand Showcase</td>
-    <td><a href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-8/" target="_blank">🔗 View Live</a></td>
+    <td><a class="btn" href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-8/" target="_blank">🔗 View Live</a></td>
   </tr>
 </table>
 
@@ -118,8 +153,8 @@ Full_Stack_Projects/
 <h2>📸 Project Previews</h2>
 
 <p align="center">
-  <img src="Landing-Page-1.png" width="320" alt="Landing Page 1 Preview" />
-  <img src="Landing-Page-8.png" width="320" alt="Landing Page 8 Preview" />
+  <img src="Landing-Page-2/Landing-Page-2.png"  width="320" alt="Landing Page 2 Preview" />
+  <img src="Landing-Page-8/Landing-Page-8.png"  width="320" alt="Landing Page 8 Preview" />
 </p>
 
 ---
