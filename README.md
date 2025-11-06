@@ -91,6 +91,8 @@ Each page tells a design story: from anime-inspired art to brand showcases like 
 ### 🧭 [Miranda Modern Website](https://github.com/Ashutosh-kesharwani/Full_Stack_Projects/tree/main/Project2_Modern_Website/1.Miranda-Website)
 A clean, scroll-based website built to demonstrate minimalism and smooth motion — perfect for modern portfolio or brand representation.
 
+[![Website Preview](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=github)](https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project2_Modern_Website/1.Miranda-Website/)
+
 ### ⚛️ [React UI Projects](https://github.com/Ashutosh-kesharwani/Full_Stack_Projects/tree/main/Project4_React_UI)
 A collection of **React-based UIs** focusing on component architecture, state management, and responsive layouts.
 
