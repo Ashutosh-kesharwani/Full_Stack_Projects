@@ -5,6 +5,13 @@ This project is part of my **creative landing page series**, where I explore the
 
 ---
 
+## 🎥 Project Preview
+
+Here’s a short preview of the website in action 👇  
+🎬 **[Miranda Website ](ashutosh-kesharwani.github.io/Full_Stack_Projects/Project2_Modern_Website/1.Miranda-Website)**
+
+---
+
 ## 🪄 Concept & Inspiration
 
 The goal behind **Miranda** was simple — create a landing page that feels alive.  
@@ -50,14 +57,6 @@ Inspired by **modern creative agencies**, this page focuses on:
 
 ---
 
-## 🎥 Project Preview
-
-Here’s a short preview of the website in action 👇  
-*(You can replace this link with a hosted demo or GIF if available)*
-
-🎬 **[Miranda Website Preview Video](./Miranda-Website-Preview-Video.mp4)**
-
----
 
 ## 💾 Try It Yourself
 
