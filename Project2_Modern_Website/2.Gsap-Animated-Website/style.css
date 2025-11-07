@@ -1,0 +1,22 @@
+/* New Machina font style */ 
+ @font-face {
+  font-family: "Neue Machina";
+  src: url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.woff2") format("woff2"),
+       url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.woff") format("woff"),
+       url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+ font-family: "Neue Machina", sans-serif;
+ overflow-x:hidden ;
+    
+}
