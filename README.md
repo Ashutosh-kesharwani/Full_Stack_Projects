@@ -96,8 +96,7 @@ A clean, scroll-based website built to demonstrate minimalism and smooth motion 
 ### ⚛️ [React UI Projects](https://github.com/Ashutosh-kesharwani/Full_Stack_Projects/tree/main/Project4_React_UI)
 A collection of **React-based UIs** focusing on component architecture, state management, and responsive layouts.
 
-### 💾 [MERN Stack Applications](https://github.com/Ashutosh-kesharwani/Full_Stack_Projects/tree/main/Project5_MERN_Applications)
-Full-fledged web apps built using the **MERN stack**, featuring **user authentication**, **API integration**, and **dynamic UI rendering**.
+
 
 ---
 
@@ -142,3 +141,4 @@ Full-fledged web apps built using the **MERN stack**, featuring **user authentic
 ---
 
 <h3 align="center">✨ Built with passion, code, and creativity ✨</h3>
+
