@@ -21,7 +21,7 @@ Whether you’re a **recruiter**, **collaborator**, or **fellow developer**, thi
 
 ---
 
-<h2>🧩 Tech Stack Overview</h2>
+<h2>Tech Stack Overview</h2>
 
 | Area | Technologies Used |
 |------|-------------------|
@@ -141,4 +141,5 @@ A collection of **React-based UIs** focusing on component architecture, state ma
 ---
 
 <h3 align="center">✨ Built with passion, code, and creativity ✨</h3>
+
 
