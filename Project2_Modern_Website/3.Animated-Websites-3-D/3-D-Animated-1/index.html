@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3-D Animated-Website | 1</title>
+
+    <!-- Montserrat-font cdn link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- user-defined style.css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- locomotive-scroll css link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+  </head>
+  <body>
+    <!-- As when we scroll we scroll our main but we see that nav is fixed at its posn and didnot move so isko main ke bahar bnao -->
+
+    <nav>
+      <img src="assets/images/zelt-logo.svg" alt="zelt-logo" />
+      <div id="center-nav">
+        <a href="#">Product</a>
+        <a href="#">Pricing</a>
+        <a href="#">Resources</a>
+        <a href="#">Login</a>
+      </div>
+      <button>Get Started</button>
+    </nav>
+    <main>
+      <!-- section-1 -->
+      <section class="section" id="section-1">
+        <h1>
+          Give your people <br >
+          a platform
+        </h1>
+        <h2>
+          Create can-do culture with a modern <br >
+          HR platform built for growth
+        </h2>
+        <canvas></canvas>
+      </section>
+
+      <!-- blank-section-2 for completing the canvas animaton -->
+      <section class="section" id="section-2"></section>
+
+       <!-- section-3 -->
+      <section class="section" id="section-3">
+         <h1>Not another <br> HR tool</h1>
+            <h4>Now you can run people operations on a scalable <br> backbone, so you can stay lean and keep focus.</h4>
+      </section>
+
+      <!-- blank-section-4 for completing the canvas animaton -->
+      <section class="section" id="section-4">
+
+      </section>
+
+       <!-- section-5 -->
+      <section class="section" id="section-5">
+        <h1>Run HR, IT & Finance
+                <br>
+                in one place
+            </h1>
+            <h4>to automate workflows, enable self-service <br> and improve employee experience.</h4>
+      </section>
+ 
+      <!-- section-6 -->
+      <section class="section" id="section-6">
+        <div id="center-page6">
+                <div id="left-page6">
+                    <video src="assets/videos/video-1.mp4" autoplay loop muted></video>
+                </div>
+                <div id="right-page6">
+                    <h1>
+                        People</h1>
+                        <h4>A next generation HRIS that forms the core of
+                            your people stack and programmatically drives
+                            your people services, from time off to access
+                            management, payroll to benefits. Minimise time
+                            spent on admin using automation and
+                            employee self-service.</h4>
+                            <button>Find out more</button>
+                </div>
+            </div>
+      </section>
+
+
+      <!-- section-7 -->
+      <section class="section" id="section-7">
+        <div class="left-page7">
+                <h1>People-centric</h1>
+                <h4>Create a better employee experience by building your people operations systems and processes around your people. With self-service and seamless approvals, your team does not have to jump through hoops to get the resources they need.</h4>
+            </div>
+            <div class="right-page7">
+                <video src="assets/videos/video-1.mp4" autoplay loop muted ></video>
+            </div>
+      </section>
+      
+       <!-- section-8 -->
+      <section class="section" id="section-8">
+        <div class="left-page8">
+                <video src="assets/videos/video-2.mp4" autoplay loop muted ></video>
+            </div>
+            <div class="right-page8">
+                <h1>Enabling</h1>
+                <h4>Create a better employee experience by building your people operations systems and processes around your people. With self-service and seamless approvals, your team does not have to jump through hoops to get the resources they need.</h4>
+            </div>
+      </section>
+      
+      <!-- section-9 -->
+      <section class="section" id="section-9">
+        <div class="left-page9">
+                <h1>Simple</h1>
+                <h4>Create a better employee experience by building your people operations systems and processes around your people. With self-service and seamless approvals, your team does not have to jump through hoops to get the resources they need.</h4>
+            </div>
+            <div class="right-page9">
+                <img src="assets/images/footer-image.png" alt="Simple-image">
+            </div>
+      </section>
+    </main>
+
+    <!-- locomotive-scroll js link -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+    <!-- Gsap link -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- ScrollTrigger Gsap Plug-in -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+      integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- user-defined script.js -->
+    <script src="script.js"></script>
+  </body>
+</html>
