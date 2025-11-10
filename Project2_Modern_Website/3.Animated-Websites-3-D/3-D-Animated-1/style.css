@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+  
+}
+/* As we have not give height and width to wrapper main than nav, all sections we dont give tham in % , so we use vh and vw */
+
+
+
+
+/* nav-styling */
+
+nav{
+    height: 10vh;
+    width: 40vw;
+    background-color: rgba(255, 255, 255, 0.407);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%,3%);
+    z-index: 99;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px ;
+    text-transform: uppercase;
+}
+nav img{
+    width: 10%;
+}
+#center-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    width: 25vw;
+}
+#center-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+nav button{
+    background-color: #FFCD6D;
+    padding: 20px 10px ;
+    border-radius: 10px;
+    font-weight: 600;
+    border:none;
+    cursor: pointer;
+}
+
+
+/* main-styling */
+main{
+
+    /* Note :  locomotive lgane par ham hamare main jo wrapper div hai usko height and width dono nhi de skte ya to height do ya to width otherwise jitter effect aayga aur vo kam nhi karega 
+    so dono hi mat do only position: relative; and overflow:hidden dedo aur jo kaam hai  */
+    /* height: 100%;
+    width: 100%;*/
+    position: relative;
+    overflow: hidden;
+}
+
+
+.section{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    z-index: 99;
+}
+
+/* SECTION-1-STYLING */
+#section-1 h1{
+    font-size: 80px;
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    top: 38%;
+    font-weight: 500;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#section-1 h2{
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    font-weight: 400;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    color: #565656;
+}
+canvas{
+   width: 100vw;
+   height: 100vh; 
+   position: relative;
+   z-index: 9;
+}
+
+/* SECTION-3-STYLING */
+#section-3>h1 {
+    z-index: 99;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+#section-3>h4 {
+    position: absolute;
+    left: 50%;
+    top: 59%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    white-space: nowrap;
+    color: #565656;
+    z-index: 99;
+}
+
+/* SECTION-5-STYLING */
+#section-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: transparent;
+    text-align: center;
+    background-color: #E4E0DD;
+}
+
+#section-5>h1 {
+    font-weight: 600;
+    font-size: 3vw;
+}
+
+#section-5>h4 {
+    margin-top: 30px;
+    font-weight: 500;
+    color: #646464;
+    font-size: 1.5vw;
+}
+
+/* SECTION-6-STYLING */
+#center-page6{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 70%;
+    width: 75%;
+    background-color: #F6F3EF;
+}
+#left-page6{
+    height: 100%;
+    width: 50%;
+}
+#left-page6>video{
+   height: 100%;
+   width: 100%;
+}
+#right-page6{
+    display: flex;
+    align-items: start;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding-left: 60px;
+}
+#right-page6>h1{
+    font-weight: 600;
+}
+#right-page6>h4{
+    font-weight: 500;
+    width: 70%;
+    color: #222222d4;
+}
+#right-page6>button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+/* SECTION-7-STYLING */
+#section-7{
+    display: flex;
+}
+.left-page7{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding-left: 10vw;
+}
+.left-page7>h1{
+    font-size: 2.8vw;
+    font-weight: 600;
+}
+.left-page7>h4{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 50%;
+}
+.right-page7{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.right-page7>video{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 70%;
+    width: 70%;
+}
+
+
+/* SECTION-8-STYLING */
+#section-8{
+   display: flex;
+}
+.left-page8{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.left-page8>video{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 70%;
+    width: 70%;
+}
+.right-page8{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding-left: 10vw;
+}
+.right-page8>h1{
+    font-size: 2.8vw;
+    font-weight: 600;
+}
+.right-page8>h4{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 50%;
+}
+
+
+/* SECTION-9-STYLING */
+#section-9{
+   display: flex;
+}
+.left-page9{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding-left: 10vw;
+}
+.left-page9>h1{
+    font-size: 2.8vw;
+    font-weight: 600;
+}
+.left-page9>h4{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 50%;
+}
+.right-page9{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.right-page9>img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 70%;
+    width: 70%;
+}
