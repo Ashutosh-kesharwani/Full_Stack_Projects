@@ -89,7 +89,7 @@ A creative set of **8 themed landing pages** — built with **HTML & CSS** and e
 Each page tells a design story: from anime-inspired art to brand showcases like **Nike** and **Coca-Cola**.
 
 ### 🧭 [Miranda Modern Website](https://github.com/Ashutosh-kesharwani/Full_Stack_Projects/tree/main/Project2_Modern_Website/1.Miranda-Website)
-A clean, scroll-based website built to demonstrate minimalism and smooth motion — perfect for modern portfolio or brand representation.
+A clean ,scroll-based website built to demonstrate minimalism and smooth motion — perfect for modern portfolio or brand representation.
 
 [![Website Preview](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=github)](https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project2_Modern_Website/1.Miranda-Website/)
 
@@ -141,5 +141,6 @@ A collection of **React-based UIs** focusing on component architecture, state ma
 ---
 
 <h3 align="center">✨ Built with passion, code, and creativity ✨</h3>
+
 
 
