@@ -133,7 +133,7 @@ A collection of **React-based UIs** focusing on component architecture, state ma
 <h2>👨‍💻 Author</h2>
 
 **Ashutosh Kesharwani**  
-💻 Computer Science Engineering Student | Frontend & Full Stack Developer  
+💻 Computer Science Engineering Student | Frontend & Full Stack Developer. 
 🌐 [Portfolio Website](https://ashutoshshowcase.netlify.app)  
 🐙 [GitHub](https://github.com/Ashutosh-kesharwani)  
 💼 [LinkedIn](https://www.linkedin.com/in/ashutosh-kesharwani)  
@@ -141,6 +141,7 @@ A collection of **React-based UIs** focusing on component architecture, state ma
 ---
 
 <h3 align="center">✨ Built with passion, code, and creativity ✨</h3>
+
 
 
 
