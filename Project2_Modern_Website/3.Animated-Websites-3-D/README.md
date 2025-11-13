@@ -10,7 +10,7 @@ Each version explores a different approach to **depth, motion, and interactivity
 | Version | Preview Link | Status |
 |----------|---------------|--------|
 | **3D Animated Website #1** | 🔗 [View Live](https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project2_Modern_Website/3.Animated-Websites-3-D/3-D-Animated-1/) | ✅ Live |
-| **3D Animated Website #2** | 🚧 Coming Soon | 🔄 In Development |
+| **3D Animated Website #2** | 🚧 Coming Soon | 🔄 In Development   |
 
 ---
 
