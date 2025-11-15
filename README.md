@@ -141,6 +141,7 @@ A collection of **React-based UIs** focusing on component architecture, state ma
 ---
 
 <h3 align="center">✨ Built with passion, code, and creativity ✨</h3>
+.
 
 
 
