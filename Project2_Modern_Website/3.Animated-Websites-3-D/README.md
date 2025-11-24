@@ -89,19 +89,18 @@ It delivers a smooth cinematic feel using **HTML + CSS + JS**, without heavy can
 
 📁 **3-D-Animated-2-Advance/**
 │
-├── 📄 **index.html** — Main structure
-├── 🎨 **style.css** — UI + effects
-├── ⚙️ **script.js** — GSAP + animation logic
-├── 📘 **scriptExplanationScript.js** — Additional JS / explanations
-│
-├── 📁 **images/** — General images, graphics, hero assets
-│
-├── 📁 **canvas-Image/** — Layer-based depth assets
-│   ├── Parallax layers
-│   ├── Section visuals
-│   └── Animation frames (if used)
-│
-└── 📘 **README.md**
+├── 📄 **index.html** — Main structure  <br>
+├── 🎨 **style.css** — UI + effects <br>
+├── ⚙️ **script.js** — GSAP + animation logic<br>
+├── 📘 **scriptExplanationScript.js** — Additional JS / explanations<br>
+│<br>
+├── 📁 **images/** — General images, graphics, hero assets<br>
+│<br>
+├── 📁 **canvas-Image/** — Layer-based depth assets<br>
+│   ├── Parallax layers<br>
+│   ├── Section visuals<br>
+│<br>
+└── 📘 **README.md**<br>
 
 ---
 
