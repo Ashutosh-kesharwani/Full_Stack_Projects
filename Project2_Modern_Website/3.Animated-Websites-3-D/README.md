@@ -43,16 +43,16 @@ Built using:
 
 ## 🗂️ Folder Structure
 
-📁 **3-D-Animated-1/**
+📁 3-D-Animated-1/
 │
-├── **index.html**
-├── **style.css**
-├── **script.js**
+├── index.html
+├── style.css
+├── script.js
+├── README.md
 │
-├── 📁 **assets/**
-│   └── 📁 **Canvas-Image/** (117 frames: `canvas-1.webp` → `canvas-117.webp`)
-│
-└── **README.md**
+└── 📁 assets/
+    └── 📁 Canvas-Image/      ← 117 frames (canvas-1.webp → canvas-117.webp)
+
 
 ---
 
