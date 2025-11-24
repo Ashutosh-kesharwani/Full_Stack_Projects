@@ -1,149 +1,170 @@
-🎨 3D Animated Websites — Modern Web Design Series
+# 🎨 3D Animated Websites — Modern Web Design Series
 
-This repository showcases two advanced 3D animated websites, each exploring unique approaches to depth, motion, parallax, and cinematic web interactions using modern web technologies like GSAP and Locomotive Scroll.
+This repository showcases **two fully animated 3D websites**, each exploring a different approach to **depth, motion, and cinematic interactivity** using **HTML, CSS, JavaScript, GSAP, and Locomotive Scroll**.
 
-Both projects are part of my Modern Web Design Series and demonstrate my ability to build high-performance, scroll-driven 3D web experiences.
+Both websites follow a **modern design philosophy**, featuring smooth scroll experiences, advanced 3D illusions, and high-performance UI animations.
 
-🌐 Live Demos
-Version	Preview Link	Status
-3D Animated Website #1	🔗 View Live
-	✅ Live
-3D Animated Website #2 (Advanced Edition)	🔗 View Live
-	✅ Live
-🧩 Project 1 — 3D Animated Website #1
-🖼️ Overview
+---
 
-This website demonstrates a scroll-synced 3D animation powered by a 117-frame canvas sequence, giving a realistic rotational/cinematic visual effect.
+## 🌐 Live Demos
 
-It is built with:
+| Version                                       | Preview Link                                                                                                                                      | Status |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| **3D Animated Website #1**                    | 🔗 [View Live](https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project2_Modern_Website/3.Animated-Websites-3-D/3-D-Animated-1/)         | ✅ Live |
+| **3D Animated Website #2 (Advanced Edition)** | 🔗 [View Live](https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project2_Modern_Website/3.Animated-Websites-3-D/3-D-Animated-2-Advance/) | ✅ Live |
 
-GSAP + ScrollTrigger for scroll-driven animation
+---
 
-Locomotive Scroll for smooth momentum
+# 🧩 Project 1 — 3D Animated Website #1
 
-HTML Canvas for frame-by-frame rendering
+### 🖼️ Overview
 
-✨ Key Features
+This website demonstrates a **scroll-synchronized 3D cinematic animation** using a **117-frame canvas sequence**, resulting in a rotational 3D illusion as the user scrolls.
 
-🎞️ 117-frame image-sequence canvas animation
+Built using:
 
-🔁 Scroll-synced playback
+* **GSAP + ScrollTrigger**
+* **Locomotive Scroll**
+* **HTML5 Canvas API**
 
-⏱️ GSAP ScrollTrigger integration
+---
 
-🧭 Locomotive smooth scrolling
+## ✨ Key Features
 
-📐 Auto canvas scaling
+* 🎞️ 117-frame image-sequence canvas animation
+* ⏱️ ScrollTrigger synced
+* 🧭 Locomotive smooth scrolling
+* 🔁 Scroll pinning
+* 📐 Canvas auto-resizing
+* 📱 Fully responsive
+* 🎨 Clean 3D layout
 
-📱 Fully responsive
+---
 
-🎨 Minimal & modern 3D look
+## 🗂️ Folder Structure
 
-🗂️ Folder Structure
-
-📁 3-D-Animated-1/
+📁 **3-D-Animated-1/**
 │
-├── index.html
-├── style.css
-├── script.js
+├── **index.html**
+├── **style.css**
+├── **script.js**
 │
-├── 📁 assets/
-│ └── 📁 Canvas-Image/ (117 frames .webp)
+├── 📁 **assets/**
+│   └── 📁 **Canvas-Image/** (117 frames: `canvas-1.webp` → `canvas-117.webp`)
 │
-└── README.md
+└── **README.md**
 
+---
 
-🧩 Project 2 — 3D Animated Website #2 (Advanced Edition)
-🖼️ Overview
+# 🧩 Project 2 — 3D Animated Website #2 (Advanced Edition)
 
-The second website builds on the first one and introduces layered parallax, 3D depth transitions, scroll-based section animations, and modern cinematic hero interactions — all without using a canvas sequence.
+### 🖼️ Overview
 
-This version uses:
+This advanced version goes beyond Website #1 by introducing:
 
-GSAP Timelines
+* **Layered parallax**
+* **Multi-depth transitions**
+* **Scene-based section animations**
+* **Modern 3D hero interactions**
+* **GSAP timelines + pinning**
 
-ScrollTrigger pinning
+It delivers a smooth cinematic feel using **HTML + CSS + JS**, without heavy canvas rendering.
 
-Locomotive Scroll integration
+---
 
-Layer-based parallax movements
+## ✨ Key Features
 
-It offers a smooth, modern, high-tech 3D visual experience.
+* 🎥 Cinematic parallax hero
+* 🪞 Multiple 3D depth layers
+* 🎬 GSAP timeline animations
+* 📌 ScrollTrigger pin sections
+* 🧭 Locomotive smooth scroll
+* 🖱️ Hover micro-interactions
+* 🎨 Gradient + minimal UI
+* 📱 Fully responsive
 
-✨ Key Features
+---
 
-🎥 Cinematic 3D parallax hero section
+## 🗂️ Folder Structure 
 
-🪞 Multi-layer depth animations
-
-➿ GSAP Timeline transitions
-
-📌 ScrollTrigger pinning scenes
-
-🧭 Locomotive smooth scrolling
-
-🎨 Modern glassy UI & gradient backgrounds
-
-🖱️ Hover micro-interactions
-
-📱 Fully responsive and fast
-
-🗂️ Folder Structure (UPDATED)
-
-📁 3-D-Animated-2-Advance/
+📁 **3-D-Animated-2-Advance/**
 │
-├── 📄 index.html — Main structure
-├── 🎨 style.css — UI + effects
-├── ⚙️ script.js — GSAP + animation logic
-├── 📘 scriptExplanationScript.js — Script explanations / extra JS
+├── 📄 **index.html** — Main structure
+├── 🎨 **style.css** — UI + effects
+├── ⚙️ **script.js** — GSAP + animation logic
+├── 📘 **scriptExplanationScript.js** — Additional JS / explanations
 │
-├── 📁 images/ — General images and assets
+├── 📁 **images/** — General images, graphics, hero assets
 │
-├── 📁 canvas-Image/ — Parallax layers, sequence images, or depth assets
-│ ├── layer images
-│ ├── section visuals
-│ └── animation frames (if used)
+├── 📁 **canvas-Image/** — Layer-based depth assets
+│   ├── Parallax layers
+│   ├── Section visuals
+│   └── Animation frames (if used)
 │
-└── 📘 README.md
+└── 📘 **README.md**
 
-⚙️ Technical Stack (Common for Both)
-Tool	Purpose
-HTML5	Structure & sections
-CSS3	Styling, 3D layering, responsiveness
-JavaScript (ES6)	Logic + animations
-GSAP	ScrollTrigger, timelines, transitions
-Locomotive Scroll	Smooth scrolling
-Canvas API	(Project 1 only) image sequence rendering
-Layered Parallax	(Project 2) depth animation
-🚀 Setup Instructions
+---
 
-Clone the repository:
+# ⚙️ Technical Stack (Common for Both Projects)
 
+| Tool                  | Purpose                         |
+| --------------------- | ------------------------------- |
+| **HTML5**             | Base structure                  |
+| **CSS3**              | Ui, responsiveness, 3D layering |
+| **JavaScript (ES6)**  | Animation logic                 |
+| **GSAP**              | ScrollTrigger, timelines        |
+| **Locomotive Scroll** | Smooth scrolling                |
+| **Canvas API**        | (Project 1 only)                |
+| **Parallax Layering** | (Project 2 only)                |
+
+---
+
+# 🚀 Setup Instructions (For Both Websites)
+
+1️⃣ Clone the repository:
+
+```bash
 git clone https://github.com/ashutosh-kesharwani/Full_Stack_Projects.git
+```
 
+2️⃣ Navigate to any project:
 
-Navigate to any project:
-
+```bash
 cd Project2_Modern_Website/3.Animated-Websites-3-D/3-D-Animated-1
-
+```
 
 or
 
+```bash
 cd Project2_Modern_Website/3.Animated-Websites-3-D/3-D-Animated-2-Advance
+```
 
+3️⃣ Open with VS Code Live Server
+**or** open `index.html` directly.
 
-Open index.html in a browser
-or
-Use VS Code Live Server for best results.
+---
 
-🔮 Future Enhancements
+# 🔮 Future Enhancements
 
-Add real 3D scenes using Three.js
+* 🌌 Add Three.js for real 3D scenes
+* 🖱️ Add mouse-motion parallax
+* 🎞️ Add scroll-scrub animation controller
+* 🌈 Add color-grading transitions
+* ⚡ Improve image loading with lazy-load + preload strategies
 
-Add mouse-tracking parallax
+---
 
-Add scroll-scrub timeline controller
+# 🏁 Final Notes
 
-Add a landing preload animation
+These two websites mark a major step in your **Modern Web Design Series**, showcasing:
 
-Optimize images with lazy-loading
+* advanced UI/UX animation
+* mastery of GSAP & ScrollTrigger
+* smooth scrolling with Locomotive
+* cinematic layouts & transitions
+* scalable folder + code structure
+
+A perfect upgrade to your **portfolio, resume, and GitHub**.
+
+---
+
