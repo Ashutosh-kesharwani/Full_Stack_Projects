@@ -10,6 +10,7 @@ Each project demonstrates my practical learning in <b>frontend design</b>, <b>ba
 <h2>🧠 About This Repository</h2>
 
 This repository serves as a **central hub** for all my full stack and frontend projects.  
+
 You’ll find a mix of small practice projects, UI experiments, and fully deployed full stack applications.  
 
 Each project reflects:
@@ -142,6 +143,7 @@ A collection of **React-based UIs** focusing on component architecture, state ma
 
 <h3 align="center">✨ Built with passion, code, and creativity ✨</h3>
 .
+
 
 
 
