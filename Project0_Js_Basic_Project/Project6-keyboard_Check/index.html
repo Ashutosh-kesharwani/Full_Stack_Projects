@@ -1,6 +1,10 @@
+<!-- 
+👉 This project shows which keyboard key is pressed along with its key, keyCode, and code values.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Event KeyCodes</title>
@@ -85,7 +89,39 @@
       }
     </style>
   </head>
-<body>
-    
-</body>
+  <body>
+    <div class="project">
+      <div id="insert">
+        <div class="key">Press any key on your keyboard ⌨️</div>
+      </div>
+    </div>
+
+    <script>
+      // 👉 Select the div where we'll show the key info
+      const insertkey = document.querySelector('#insert');
+
+      // 👉 Add event listener on window (detect key press anywhere on page)
+      window.addEventListener('keydown', (e) => {
+        // When any key is pressed, change inner HTML of insertkey
+        // Show a table with details about the key
+        insertkey.innerHTML = `
+          <div class="result">
+            <table>
+              <tr>
+                <th>Key</th>
+                <th>KeyCode</th>
+                <th>Code</th>
+              </tr>
+              <tr>
+                <td>${e.key === " " ? "Space" : e.key}</td>
+                <td>${e.keyCode}</td>
+                <td>${e.code}</td>
+              </tr>
+            </table>
+          </div>
+        `;
+      });
+    //    Adding check case for space agr spacebar click kare to manually space likh do or else jo key uska name upare e.key me condition
+    </script>
+  </body>
 </html>
