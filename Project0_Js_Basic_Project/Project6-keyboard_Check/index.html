@@ -1,10 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event KeyCodes</title>
+    <style>
+      /* ====== Page Styling ====== */
+      body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        background: linear-gradient(135deg, #141e30, #243b55);
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .project {
+        text-align: center;
+        background: rgba(255, 255, 255, 0.08);
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        transition: all 0.3s ease;
+      }
+
+      .project:hover {
+        transform: scale(1.02);
+      }
+
+      .key {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: #aad8ff;
+      }
+
+      /* ====== Table Styling ====== */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background-color: rgba(255, 255, 255, 0.05);
+        border-radius: 10px;
+        overflow: hidden;
+        animation: fadeIn 0.5s ease-in-out;
+      }
+
+      th,
+      td {
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 12px 20px;
+        text-align: center;
+        font-size: 1.1rem;
+      }
+
+      th {
+        background-color: rgba(255, 255, 255, 0.15);
+        color: #00ffff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      tr:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+
+      td {
+        color: #e0e0e0;
+      }
+
+      /* ====== Animation ====== */
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(-10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
 <body>
     
 </body>
