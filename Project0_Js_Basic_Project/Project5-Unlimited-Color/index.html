@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Number Guessing Game</title>
+    <style>
+      button{
+        background-color: rgb(30, 255, 0);
+        border:none;
+        padding: 15px 30px;
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body style="background-color: #212121; color: #fff">
+    <h1>Start should change the Background color every second</h1>
+    <button id="start">Start</button>
+    <button id="stop" style="background-color: red;">Stop</button>
+ 
+    <script>
+
+  // 👉 Function to generate a random color in HEX format (like #A1B2C3)
+  const randomColor = function() {
+    const hexSet = "0123456789ABCDEF";  // All possible characters used in hex colors
+    let color = "#";                   // Every hex color starts with '#'
+
+    // Loop 6 times because a hex color has 6 characters (e.g., #FFFFFF)
+    for (let i = 0; i < 6; i++) {
+      // Math.random() gives a random number between 0 and 1
+      // Multiply by 16 to get values from 0 to 15
+      const randomIndex = Math.floor(Math.random() * 16);
+      // Add one random hex digit to the color string
+      color += hexSet[randomIndex];
+    }
+
+    console.log(color);  // Just to check the generated color in console
+    return color;        // Return the final color like "#F1A2C3"
+  }
+
+  // Variable to store setInterval ID so we can stop it later
+  let colorInterval;
+
+  // Select the <body> tag — we’ll change its background color
+  const bodyTag = document.querySelector('body');
+
+  // 👉 When Start button is clicked → start changing background color every second
+  const startButton = document.querySelector('#start');
+  startButton.addEventListener('click', function() {
+    // setInterval repeats a function again and again (here every 1000ms = 1 second)
+
+    // always write safe  check [when taking input ] | Whether value is null or not
+    if(!colorInterval){
+    colorInterval = setInterval(function() {
+      bodyTag.style.backgroundColor = randomColor
+      (); // Change background color
+      //OR 
+      //document.body.style.backgroundColor= randomColor();
+    }, 1000);
+  }
+  });
+
+  // 👉 When Stop button is clicked → stop changing background color
+  const stopButton = document.querySelector('#stop');
+  stopButton.addEventListener('click', function() {
+    clearInterval(colorInterval); // Stops the color changing loop
+
+    //Flushing the colorIntervalID [ making it null when we click stop button as ham kyi cases me usse override kar rhe hai so usse bachne ke liye or good pratice]
+
+    colorInterval= null;
+  });
+
+</script>
+  </body>
+</html>
