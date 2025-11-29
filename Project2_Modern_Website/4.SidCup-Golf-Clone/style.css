@@ -1,0 +1,17 @@
+*{ /* Puri websites ke andar apply hone wale styles*/
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'montserrat', sans-serif; /* import new familt montserrat */
+  color:#fff;  
+}
+
+*::selection{  /* Ye use hota hai text ko select karne par uska color change karne ke liye */
+  background-color: white;
+  color:rgb(150, 193, 30);
+}
+html,body{
+  width:100%;
+  height: 100%;
+  /* perspective: 800px;  --> perspective lagane se ye fayda hai ki user kitni dur se dekh rha hai and 3D effect looks good; */
+}
