@@ -15,3 +15,516 @@ html,body{
   height: 100%;
   /* perspective: 800px;  --> perspective lagane se ye fayda hai ki user kitni dur se dekh rha hai and 3D effect looks good; */
 }
+body::-webkit-scrollbar{ /* Ye use hota hai scroll bar ko hide[for hide use display:none use karlo ho jayga] ya edit karne ke liye */ 
+  display: block;
+  width: 8px;
+  background-color:rgb(150, 193, 30) /* Ye use hota hai scroll bar ke background ko edit karne ke liye */
+}
+body::-webkit-scrollbar-thumb{ /* Ye use hota hai scroll bar ke andar jo choti si line hoti hai usko edit karne ke liye */
+  background-color:white;
+  border-radius: 50px;
+}
+
+#cursor{
+  height:20px;
+  width:20px;
+  background-color: rgb(150, 193, 30);
+  border-radius: 50%;
+  position: fixed;
+  z-index: 99;
+}
+#cursor-blur{
+  height:500px;
+  width:500px;
+  background-color: rgba(150, 193, 30, 0.157);
+  border-radius: 50%;
+  position: fixed;
+  filter:blur(40px);
+  z-index:9;
+}
+
+#nav{
+  height:145px;
+  width:100%;
+  padding: 0px 150px;
+  
+  gap:50px;  /* Ye use hota hai uss container ke saare ele me equal gaps dene ke liye*/
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  position: fixed; /* As nav baar is fixed throughout the website*/
+  z-index: 99;     /* In any websites nav bar must be at top so iska z-index highest rkho */
+
+}
+#nav img{
+  height: 75px;
+}
+#nav h4{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  transition:color 0.4s ease;
+  color: white;
+  cursor: none; /* hide default cursor */
+  /* Ye cursor none isliye kiya hai jisse cursor blur ke andar hi rahe */
+
+  /* transition: all linear 0.15s; linear means same speed throughout the transition */
+}
+
+
+video{
+  height: 100%;
+  width: 100%;
+  object-fit:cover;
+  position: fixed;
+  z-index: -1;
+}
+/* Jitne bhi parent dic hai like main , page 1 sabko ham position relative denge
+ asjisse */
+#main{
+   position: relative;
+   background-color: rgba(0, 0, 0, 0.37);
+} 
+#page1{
+  height: 100vh;
+  width: 100%;
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index:10;
+  
+}
+#page1 #arrow{
+  height: 150px; 
+  width: 150px;
+  background-color:transparent;
+  border:2px solid rgb(150, 193, 30);
+  position: absolute;
+  left:-2%;
+  bottom:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all linear 0.5s; /* linear means same speed throughout the transition */
+  cursor: pointer; /* Cursor will change to pointer when hover on arrow */
+}
+#page1 #arrow:hover{
+  scale: 0.4;
+  background-color: rgb(150, 193, 30);
+}
+#arrow img{
+width: 50px;
+height: 50px;
+filter:brightness(0) invert(100%);
+}
+
+#page1 h1{
+  font-size: 140px;
+  font-weight: 900;
+  position: relative;
+  
+}
+#page1 h1::before{
+  content:"EAT.DRINK.PLAY";
+  position: absolute;
+  color: black;
+  top:-6px;
+  left:-6px;
+  -webkit-text-stroke:1px rgb(150, 193, 30);
+  z-index: -1;
+
+}
+#page1 h2{
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#page1 h3{
+  font-size: 16px;
+  font-weight: 500;
+  width: 411px;
+}
+#page2{
+  min-height: 100vh;
+  width: 100%;
+  z-index:10;
+}
+#scroller{
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: relative;
+  z-index: 10;
+}
+#scroller::-webkit-scrollbar{
+   display: none;
+}
+#scroller-in{
+  display: inline-block;
+  white-space: nowrap;
+  animation-name: scroll;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+#scroller h4{
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 120px;
+  font-weight: 900;
+  margin-right: 10px;
+  color:transparent;
+  -webkit-text-stroke: 2px rgb(150, 193, 30);
+  transition: all linear 0.5s;
+}
+#scroller h4:hover{
+  color: rgb(150, 193, 30);
+}
+
+@keyframes scroll {
+  from{
+   transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+
+#about-us{
+  height: 40vh;  /*heigh and width iss liye diya hai jisse ye about container 
+                 ke sari cheeze iske andarrahe hamra uske andar contain rahe */
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  position: relative;  /* As sarre ele ke beeche cursor blur wla chahiye*/
+  z-index: 10;
+
+}
+#about-us img{
+  width:220px;
+  height:220px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+#about-us-in{
+  width: 50%;
+  text-align: center;
+}
+
+#about-us-title{
+  font-size: 54px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+#about-us-paragraph{
+  font-size: 20px;
+  line-height: 26px;
+}
+#about-us-disclaimer{
+ padding-top: 15px;
+ font-size: 22px;
+line-height: 40px;
+  
+}
+#cards-container{
+  width:100%;
+  height:  60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:70px;
+
+}
+.card{
+  height: 80%;
+  width: 24%;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 10;
+
+  overflow: hidden;/* hide the content that flow outside the card element */
+  transition: all ease 0.6s;   /* Reason for using trans on card as hover ispe and overlay dono pe target so iss wjah se 
+  Starts slowly,Speeds up in the middle,Slows down at the end */
+ 
+}
+#card-1{
+    background-image: url("assets/card1.avif");
+}
+#card-2{
+    background-image: url("assets/card2.webp");
+}
+#card-3{
+    background-image: url("assets/card3.avif");
+}
+
+
+
+
+
+
+.overlay{
+  display: flex;
+  flex-direction: column;  /* Flex ka no use bas content dekhme me acha lag rha hai*/
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  background-color: rgb(150, 193, 30);
+  opacity: 0;
+  transition: all ease 0.6s;
+}
+
+/* Apply hover on card jisse overlay pe chalega ::content acha dhikega isse jada */
+.card:hover .overlay { 
+  opacity: 1;
+}
+.overlay h4{
+   
+   font-size: 40px;
+   font-weight: 800;
+   color: black;
+   margin-bottom: 20px;
+}
+.overlay p {
+   font-size: 15px;
+   color: black;
+   line-height: 20px;
+}
+.details{
+   margin-top: 30px;
+}
+ /* For adding 3-d effect   rotate3d(x,y,z-axis, deg rotate) */
+.card:hover{
+  transform: rotate3d(-1,1,0,20deg);
+}
+#sign-up-bar{
+   position: relative;
+   z-index: 10;
+   margin-top: 50px;
+   margin-bottom: 100px;
+   height: 30vh;
+   width: 100%;
+   display: flex;
+   justify-content: space-between; 
+   align-items: center;
+   background: linear-gradient(to left bottom, #119f3a, #ace022);
+}
+#sign-up-bar p{
+
+  width: 45%;
+  text-transform: uppercase;
+  line-height: 50px;
+  text-align: center;
+  font-size: 27px;
+  color: black;
+  font-weight: 800;
+}
+#sign-up-bar img{
+ height: 100%;
+ width: 14%;
+ object-fit: cover;
+}
+#page3{
+  height: 120vh;
+  width: 100%;
+  background-color: black;
+  position: relative;
+  margin-bottom: 100px;
+}
+#food-menu-container{
+ 
+ 
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 250px;
+}
+#page3 img{
+  width: 520px;
+  height: 320px;
+  border-radius: 20px;
+}
+.food-info{
+  width: 50%;
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.food-info h3{
+ 
+  font-size: 36px;
+  font-weight: 900;
+}
+.food-info p{
+  width: 60%;
+  font-size : 18px;
+  font-weight: 400;
+}
+#food-end-line{
+  margin-top: 30px;
+}
+
+#website-promo{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+/* > ka matlab website promo ke jo direct andar paragraph hai*/
+#website-promo>p{
+   font-size: 25px;
+   font-weight: 700;
+   width: 60%;
+   text-align: center;
+   line-height: 45px;
+}
+#website-promo img{
+   position: absolute;
+   height: 60px;
+}
+#left-quote{
+  top:-50px;
+  left:10px;
+}
+#right-quote{
+  bottom:-50px;
+  right:130px;
+}
+
+
+#page4{
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:70px;
+  position: relative;
+  z-index: 10;
+}
+.card-page-4{
+  position: relative;
+  z-index: 10;
+  height: 50%;
+  width: 26%;
+  overflow: hidden; /* hide the content that flow outside the card element */
+  border-radius: 20px;
+  
+}
+.card-page-4  h2{
+
+height: 100%;
+width: 100%;
+
+background-color: rgb(150, 193, 30);
+font-size: 30px;
+color: black;
+font-weight: 800;
+text-align: center;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+position: absolute;
+z-index: 10;
+
+transition: all ease 0.6s; 
+}
+.card-page-4 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  scale:1.1; /* scale is used to increase the size of the image on hover */
+  transition: all ease 0.6s; 
+}
+.card-page-4:hover h2{
+  color: white;
+  background-color: transparent;
+}
+.card-page-4:hover img{
+ scale: 1; 
+}
+
+#page4 h1{
+  font-size: 80px;
+  color: black;
+  -webkit-text-stroke: 2px white;
+  font-weight: 900;
+  font-family: gilroy, sans-serif;
+  position: absolute;
+  top:5%;
+  transition: all ease 0.6s;
+  
+}
+#page4 h1:hover{
+  -webkit-text-stroke: 2px rgb(150, 193, 30);
+}
+#footer {
+  height: 30vh;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(to left bottom, #119f3a, #ace022);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  position: relative;
+  z-index: 1;
+}
+
+#footer img {
+  height: 150px;
+  z-index: 2;
+}
+
+.footer-desc h4 {
+  width: fit-content;
+  text-transform: uppercase;
+  font-size: 30px;
+  white-space: nowrap;
+  color: black;
+  z-index: 2;
+}
+
+#footer-address h4 {
+  width: fit-content;
+  font-size: 15px;
+  font-weight: 700;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #000;
+  line-height: 20px;
+  margin-bottom: 8px;
+  z-index: 2;
+}
+
+#dots-footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;       /* Covers full width */
+  height:600px;      /* Covers full height */
+  object-fit: cover; /* Maintains proportion */
+  z-index: 0;        /* Places image behind all content */
+}
