@@ -1,28 +1,28 @@
-# 🌐 Miranda – Modern Animated Website
 
-A fully animated, smooth, and visually aesthetic modern web experience built as part of **Project 2 – Modern Website Collection**.
-This project focuses on **GSAP animations, scroll interactions, clean UI/UX, and creative layout design**.
+
+# 🌐 **Miranda – Modern Animated Website**
+
+A sleek, modern, and interactive web experience built as part of **Project 2 – Modern Website Collection**.
+This project highlights **GSAP-powered animations**, smooth scroll interactions, and a refined minimalist UI/UX.
 
 ---
 
 ## 📁 **Project Structure**
 
-This project lives inside the following folder structure:
-
 ```
 FULL_STACK_PROJECTS
 │
 ├── Project2_Modern_Website
-│   ├── 1.Miranda-Website
+│   ├── 4.Miranda-Website
 │   │   ├── assets/
 │   │   ├── index.html
 │   │   ├── style.css
 │   │   ├── script.js
 │   │   └── README.md   <-- (You are here)
 │   │
-│   ├── 2.Gsap-Animated-Website
-│   ├── 3.Animated-Websites-3D
-│   └── 4.SidCup-Golf-Clone
+│   ├── 1.Gsap-Animated-Website
+│   ├── 2.Animated-Websites-3D
+│   └── 3.SidCup-Golf-Clone
 │
 └── README.md
 ```
@@ -31,78 +31,87 @@ FULL_STACK_PROJECTS
 
 ## 🚀 **Live Demo**
 
-🔗 **View the Miranda Website:**
-👉 *Add the live link here once you deploy it on GitHub Pages*
-(Example)
-`https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project2_Modern_Website/1.Miranda-Website/`
+🔗 **Click to View the Miranda Website**
+👉 [View](https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project2_Modern_Website/4.Miranda-Website/)
+
+> *(This is the correct GitHub Pages deployment path based on your folder structure.)*
 
 ---
 
 ## ✨ **Features**
 
-* 🎨 Beautiful modern UI
-* ⚡ Smooth GSAP animations
-* 🔄 Scroll-triggered transitions
-* 📱 Fully responsive layout
-* 💡 Clean and minimal design theme
-* 🧩 Modular code structure for easy customization
+* 🎨 **Aesthetic & modern UI design**
+* ⚡ **GSAP-powered smooth animations**
+* 🔄 **Scroll-triggered transitions**
+* 📱 **Fully responsive layout**
+* 🌗 **Minimal, clean, and elegant theme**
+* 🧩 **Modular & scalable code architecture**
 
 ---
 
 ## 🛠️ **Tech Stack**
 
-| Technology     | Purpose                              |
-| -------------- | ------------------------------------ |
-| **HTML5**      | Structure of the website             |
-| **CSS3**       | Styling, layout design               |
-| **JavaScript** | Interactivity and logic              |
-| **GSAP**       | Smooth animations and motion effects |
+| Technology     | Purpose                                      |
+| -------------- | -------------------------------------------- |
+| **HTML5**      | Website structure                            |
+| **CSS3**       | Styling + layout architecture                |
+| **JavaScript** | Interactivity + dynamic behavior             |
+| **GSAP**       | Motion effects & high-performance animations |
 
 ---
 
 ## 📸 **Preview**
 
-You can also include a preview image/video here.
-Example:
+Add your preview image here:
 
 ```
 ![Miranda Preview](assets/preview.png)
 ```
 
----
-
-## 📚 What I Learned
-
-* Advanced GSAP timeline animations
-* Creating smooth scroll-based interactions
-* Designing clean and modern UI layouts
-* Handling animation timing, easing, and triggers
-* Writing modular and scalable front-end code
+Or you can embed a video/GIF for better impact.
 
 ---
 
-## 📦 Running the Project
+## 📚 **What I Learned**
 
-1. Clone the repository
+* Building advanced GSAP animation timelines
+* Creating fluid scroll-based transitions
+* Designing visually structured modern layouts
+* Improving UI spacing, flow, and typography balance
+* Writing clean, maintainable, and modular JS/CSS
+
+---
+
+## 📦 **How to Run Locally**
+
+1. **Clone the repository**
 
    ```bash
    git clone https://github.com/Ashutosh-kesharwani/Full_Stack_Projects.git
    ```
-2. Navigate to the project folder
+
+2. **Navigate to the project**
 
    ```bash
-   cd Project2_Modern_Website/1.Miranda-Website
+   cd Full_Stack_Projects/Project2_Modern_Website/4.Miranda-Website
    ```
-3. Open `index.html` in any browser.
+
+3. **Open in browser**
+   Simply open `index.html`.
 
 ---
 
-## 💬 Feedback
+## 💬 **Feedback & Connect**
 
-If you have suggestions or want to collaborate, feel free to reach out!
+If you have suggestions or ideas for improvement, I’d love to hear from you!
 Let’s connect on LinkedIn 👇
-🔗 [https://www.linkedin.com/in/ashutosh-kesharwani/](https://www.linkedin.com/in/ashutosh-kesharwani/)
+🔗 **[https://www.linkedin.com/in/ashutosh-kesharwani/](https://www.linkedin.com/in/ashutosh-kesharwani/)**
 
 ---
 
-If you want, I can also prepare **README files** for the other projects (GSAP website, 3D website, or Sidcup Clone) in the same aesthetic format.
+If you want, I can also create **premium README files for**:
+✅ GSAP Animated Website
+✅ Animated Website 3D
+✅ Sidcup Golf Clone
+
+Just say **“make for the next project”** and I’ll generate it.
