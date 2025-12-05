@@ -1,4 +1,4 @@
-# 🌐 **Miranda – Modern Animated Web Experience**
+# 🌐 **SIDCUP GOLF – Modern Animated Web Experience**
 
 Miranda is a **sleek, elegantly animated, and visually immersive modern website** built as part of
 **Project 2 – Modern Website Collection**.
