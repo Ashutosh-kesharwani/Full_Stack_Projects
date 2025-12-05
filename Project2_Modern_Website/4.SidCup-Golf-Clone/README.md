@@ -16,6 +16,7 @@ A perfect blend of **design + motion + interactivity**.
 
 ## 📁 **Project Structure**
 
+
 ```
 FULL_STACK_PROJECTS
 │
