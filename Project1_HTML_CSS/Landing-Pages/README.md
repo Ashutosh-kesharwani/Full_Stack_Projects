@@ -63,6 +63,11 @@
     <td>Coca-Cola Brand Showcase</td>
     <td><a href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-8/" target="_blank">🔗 View Live</a></td>
   </tr>
+  <tr>
+    <td><b>8️⃣ Landing Page 9</b></td>
+    <td>DenyTec Landing Page</td>
+    <td><a href="https://ashutosh-kesharwani.github.io/Full_Stack_Projects/Project1_HTML_CSS/Landing-Pages/Landing-Page-9/" target="_blank">🔗 View Live</a></td>
+  </tr>
 </table>
 
 ---
