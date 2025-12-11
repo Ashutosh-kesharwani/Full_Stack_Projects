@@ -136,18 +136,6 @@ Full_Stack_Projects/
 
 ---
 
-### 📢 LinkedIn Post
-
-> 🚀 Just wrapped up my <b>Modern Landing Page Collection</b> — featuring 8 creative web experiences built from scratch with <b>HTML, CSS & GSAP</b>!  
->
-> Each page explores unique animation styles, storytelling, and design aesthetics — from anime art to modern brand layouts.  
->
-> 🔗 Check it out on GitHub → [Ashutosh Kesharwani | Full Stack Projects](https://github.com/Ashutosh-kesharwani/Full_Stack_Projects)  
->
-> #WebDevelopment #FrontendDesign #GSAP #CSSAnimations #CreativeCoding #Portfolio
-
----
-
 ### 💬 Author
 
 <p align="center">
