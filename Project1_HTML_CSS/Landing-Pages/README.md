@@ -105,6 +105,7 @@ Full_Stack_Projects/
 - 🎬 **Landing Page 6 — GSAP Timeline Animation:** Sequential motion storytelling  
 - 👟 **Landing Page 7 — Nike Brand Page:** Bold contrast, minimal layout, brand focus  
 - 🥤 **Landing Page 8 — Coca-Cola Showcase:** Nostalgic red-tone storytelling through design
+- 🎨 **Landing Page 9 — DenyTec Portrait Page** A modern Potrait Design Page
 
 ---
 
